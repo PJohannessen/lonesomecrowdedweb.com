@@ -13,12 +13,11 @@
             {{ else if .Site.Params.avatar }}
               <a href="/"><img class="avatar" src="/{{ .Site.Params.avatar }}" /></a>
             {{ end }}
-            <a href="/"><div class="name">{{ .Site.Params.author }}</div></a>
+            <a href="/"><div class="name">{{ .Site.Params.title }}</div></a>
             <nav>
                 <ul>
-                    <a href="/blog/"><li>Blog</li></a>
+                    <a href="/"><li>Home</li></a>
                     <a href="/about/"><li>About</li></a>
-                    <a href="/code/"><li>Code</li></a>
                 </ul>
             </nav>
         </div>
@@ -28,6 +27,8 @@
 <section class="icons">
     <div class="container">
         <div class="content">
+
+        &copy; Patrick Johannessen {{ .Now.Year }} &nbsp;
 
         {{ if .Site.Params.github }}
             <a href="{{ .Site.Params.github }}" target="_blank">
@@ -44,6 +45,12 @@
         {{ if .Site.Params.linkedin }}
             <a href="{{ .Site.Params.linkedin }}" target="_blank">
                 <i class="icon ion-social-linkedin"></i>
+            </a>
+        {{ end }}
+
+        {{ if .Site.Params.instagram }}
+            <a href="{{ .Site.Params.instagram }}" target="_blank">
+                <i class="icon ion-social-instagram"></i>
             </a>
         {{ end }}
 
