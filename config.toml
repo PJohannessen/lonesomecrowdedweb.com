@@ -1,0 +1,24 @@
+baseurl = "https://lonesomecrowdedweb.com/"
+builddrafts = false
+author = "Patrick Johannessen"
+title = "Lonesome Crowded Web"
+contentdir = "content"
+languageCode = "en-au"
+layoutdir = "layouts"
+publishdir = "public"
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+title = "The Lonesome Crowded Web"
+author = "Patrick Johannessen"
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Don't panic"
+gatracker = "UA-88445668-1"
+github = "https://github.com/pjohannessen"
+instagram = "https://www.instagram.com/pajohannessen/"
+linkedin = "https://www.linkedin.com/in/patrickjohannessen"
+twitter = "https://twitter.com/pajohannessen"
