@@ -28,3 +28,6 @@ lang = "en"
 linkedin = "https://www.linkedin.com/in/patrickjohannessen"
 title = "The Lonesome Crowded Web"
 twitter = "https://twitter.com/pajohannessen"
+
+[social]
+twitter = "pajohannessen"
