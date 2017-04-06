@@ -49,6 +49,10 @@
             <a href="{{ .Site.Params.instagram }}" target="_blank" rel="noopener"><img class="icon" src="/img/instagram.svg" alt="instagram" /></a>
         {{ end }}
 
+        {{ if .Site.Params.stackoverflow }}
+            <a href="{{ .Site.Params.stackoverflow }}" target="_blank" rel="noopener"><img class="icon" src="/img/stackoverflow.svg" alt="stackoverflow" /></a>
+        {{ end }}
+
         {{ if .Site.Params.facebook }}
             <a href="{{ .Site.Params.facebook }}" target="_blank" rel="noopener"><img class="icon" src="/img/facebook.svg" alt="facebook" /></a>
         {{ end }}
