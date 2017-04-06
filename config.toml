@@ -9,6 +9,7 @@ layoutdir = "layouts"
 publishdir = "public"
 pygmentscodefences = true
 pygmentsuseclasses = true
+disqusshortname     = "lonesomecrowdedweb"
 pluralizelisttitles = false
 googleAnalytics = "UA-88445668-1"
 
