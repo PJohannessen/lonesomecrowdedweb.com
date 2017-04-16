@@ -1,4 +1,4 @@
-baseurl = "https://lonesomecrowdedweb.com/"
+baseurl = "https://www.lonesomecrowdedweb.com/"
 builddrafts = false
 canonifyurls = true
 contentdir = "content"
