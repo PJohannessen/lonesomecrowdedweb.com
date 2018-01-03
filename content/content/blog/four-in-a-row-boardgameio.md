@@ -1,7 +1,7 @@
 +++
 title = "Four In A Row with boardgame.io"
 draft = false
-date = "2017-01-03"
+date = "2018-01-03"
 slug = "four-in-a-row-boardgameio"
 +++
 
