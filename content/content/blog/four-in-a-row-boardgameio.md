@@ -13,7 +13,7 @@ Google recently released a "not an official Google product" framework called [bo
 
 As I have a love of both board games and coding, I thought it would be a fun excercise to try building something simple with this new framework. The documentation already includes a great tutorial of Tic-Tac-Toe, so I have decided to expand on this example with the next easiest thing I could think of: Four In A Row.
 
-I recommend reading over the boardgame.io documentation and tutorial first to familiarise yourself with some of the basics.
+I recommend reading over the [boardgame.io documentation](http://boardgame.io/) and tutorial first to familiarise yourself with the basic elements of the framework.
 
 
 ## Getting Started
@@ -38,101 +38,79 @@ This gives us our initial project:
 
 The framework requires that we define an initial `setup` function to describe our board state, a series of `moves` to modify it and return a new board state, and a `victory` condition so we know when to end the game.
 
-Defining our board state is relatively straightforward. We want to create a grid of cells consisting of seven columns and six rows. We will use the following identifiers for each cell:
+Defining our board state is relatively straightforward. We want to create a grid of cells consisting of 7 columns and 6 rows. We will use the following identifiers for each cell:
 
 * `0` indicates a cell with no disc
 * `1` indicates a cell with a disc from Player 1
 * `2` indicates a cell with a disc from Player 2
 
+That's a lot of different numbers we'll be using, so let's set up some constants for them now.
+
+``` javascript
+const emptyCell = 0;
+const p1disc = 1;
+const p2disc = 2;
+const numOfRows = 6;
+const numOfColumns = 7;
+const playerDiscLookup = {
+  "0": p1disc,
+  "1": p2disc,
+};
+
+export {
+  emptyCell,
+  p1disc,
+  p2disc,
+  numOfRows,
+  numOfColumns,
+  playerDiscLookup,
+};
+```
+
+We'll use `playerDiscLookup` a bit later.
+
 We will use the equivilent of a 2D array to represent our grid using an object with indexed properties for each row:
 
 ``` javascript
-  setup: () => {
-    const grid = {};
-    for (var i = 0; i < 7; i++) {
-      grid[i] = [0, 0, 0, 0, 0, 0, 0];
-    }
-    return ({ grid: grid });
-  },
+setup: () => {
+  const grid = {};
+  for (var rowIdx = 0; rowIdx < numOfRows; rowIdx++) {
+    grid[rowIdx] = Array(numOfColumns).fill(emptyCell);
+  }
+  return ({ grid: grid });
+}
 ```
 
-Each cell is initialised to `0` to indicate an empty cell.
+For each of our rows we'll set up the appropriate number of columns each with an empty cell.
 
 There is only a single move in our game; dropping a disc in to a column. The disc will always fall to fill the lowest available cell. We'll call it `selectColumn`.
 
 ``` javascript
-  moves: {
-    selectColumn(G, ctx, columnIdx) {
-      let grid = Object.assign({}, G.grid);
-      for (var rowIdx = 5; rowIdx >= 0; rowIdx--) {
-        if (grid[rowIdx][columnIdx] === 0) {
-          grid[rowIdx][columnIdx] = parseInt(ctx.currentPlayer, 10) + 1;
-          break;
-        }
+moves: {
+  selectColumn(G, ctx, columnIdx) {
+    let grid = Object.assign({}, G.grid);
+    for (var rowIdx = numOfRows - 1; rowIdx >= 0; rowIdx--) {
+      if (grid[rowIdx][columnIdx] === emptyCell) {
+        grid[rowIdx][columnIdx] = playerDiscLookup[ctx.currentPlayer];
+        break;
       }
-      return {...G, grid};
-    },
+    }
+    return {...G, grid};
   },
+},
 ```
 
-First we clone the existing board state so as to not mutate the existing state, a common pattern in React applications. Then we loop through a single column starting with the bottom cell until we find an empty cell, which we then assign to the current player. Note that `ctx.currentPlayer` is a 0-based string representing the player number, so we must parse and increment it to match the cell states I described earlier. Then we apply the new grid to our board state and return it.
+First we clone the existing board state so as to not mutate the existing state, a common pattern in React applications. Then we look at a single column starting with the bottom cell until we find an empty cell, which we then assign to the current player. Note that `ctx.currentPlayer` is a 0-based string representing the player number, which is why we use `playerDiscLookup' to determine the appropriate disc. Then we apply the new grid to our board state and return it.
 
 Finally we need to define a victory condition, which should return `true` if the current player has now won after taking their move. In the interest of time I have adapted a suitable victory algorithm from [user ferdelOlmo on Stackoverflow](https://stackoverflow.com/a/38211417/129967).
 
 ``` js
-  victory: (G, ctx) => {
-    return IsVictory(G.grid, parseInt(ctx.currentPlayer, 10) + 1) ? ctx.currentPlayer : null;
-  }
-```
-
-``` js
-function IsVictory(grid, player) {
-  // Victory algorithm by ferdelOlmo: https://stackoverflow.com/a/38211417/129967
-
-  const width = 7;
-  const height = 6;
-  let i = 0;
-  let j = 0;
-
-  // horizontalCheck
-  for (j = 0; j < height-3; j++) {
-    for (i = 0; i < width; i++) {
-      if (grid[i][j] === player && grid[i][j+1] === player && grid[i][j+2] === player && grid[i][j+3] === player) {
-        return true;
-      }
-    }
-  }
-
-  // verticalCheck
-  for (i = 0; i < width-3; i++) {
-    for (j = 0; j < height; j++) {
-      if (grid[i][j] === player && grid[i+1][j] === player && grid[i+2][j] === player && grid[i+3][j] === player) {
-        return true;
-      }
-    }
-  }
-
-  // ascendingDiagonalCheck
-  for ( i = 3; i < width; i++) {
-    for (j = 0; j < height-3; j++) {
-      if (grid[i][j] === player && grid[i-1][j+1] === player && grid[i-2][j+2] === player && grid[i-3][j+3] === player) {
-        return true;
-      }
-    }
-  }
-
-  // descendingDiagonalCheck
-  for (i = 3; i < width; i++) {
-    for (j = 3; j < height; j++) {
-      if (grid[i][j] === player && grid[i-1][j-1] === player && grid[i-2][j-2] === player && grid[i-3][j-3] === player) {
-        return true;
-      }
-    }
-  }
+victory: (G, ctx) => {
+  return IsVictory(G.grid, ctx.currentPlayer) ? ctx.currentPlayer : null;
 }
 ```
 
-The final `App.js` file can be found [here](https://github.com/PJohannessen/four-in-a-row/src/App.js)
+The final `App.js` file including the full victory check can be found [here](https://github.com/PJohannessen/four-in-a-row/blob/master/src/App.js).
 
 
 ## Rendering the board and accepting user input
@@ -147,6 +125,7 @@ A cell should render a single circle indicating either an empty cell, player 1's
 
 ``` js
 import React from 'react';
+import { emptyCell, numOfColumns, numOfRows, p1disc, p2disc, playerDiscLookup } from './constants';
 // Discs from http://fontawesome.io/icon/circle/
 import WhiteDisc from './circular-shape-silhouette-white.svg';
 import BlueDisc from './circular-shape-silhouette-blue.svg';
@@ -155,10 +134,10 @@ import RedDisc from './circular-shape-silhouette-red.svg';
 const Cell = ({ cell }) => {
   let cellImage;
   switch (cell) {
-    case 1:
+    case p1disc:
       cellImage = RedDisc;
       break;
-    case 2:
+    case p2disc:
       cellImage = BlueDisc;
       break;
     default:
@@ -166,7 +145,7 @@ const Cell = ({ cell }) => {
       break;
   }
   return (
-      <img alt="disc" src={cellImage} width="50" height="50" style={{ padding: '5px' }} />
+    <img alt="disc" src={cellImage} className="disc" />
   );
 }
 ```
@@ -185,10 +164,10 @@ Next we need a grid, which will also be quite simple with just a collection of r
 ``` js
 const Grid = ({ grid }) => {
   let rows = [];
-  for (var row = 0; row < 6; row++) {
+  for (var rowIdx = 0; rowIdx < numOfRows; rowIdx++) {
     rows = rows.concat(
-      <div key={row}>
-        <Row row={grid[row]} />
+      <div key={rowIdx}>
+        <Row row={grid[rowIdx]} />
       </div>
     );
   }
@@ -196,13 +175,13 @@ const Grid = ({ grid }) => {
 }
 ```
 
-Before we tie it all together we need to think about how the user will select a column. To make things simple we'll include a button at the top of each column to select it. The button should only be active while the column is not full. We'll also need an event to handle a player selecting the column.
+Before we tie it all together we need to think about how the user will select a column. To make things simple we'll include a button at the top of each column to select it. The button should only be active while the column is not full. We'll also need a callback to handle a player selecting the column.
 
 ``` js
 const ColumnSelector = ({ active, handleClick }) => {
   return (
-    <div style={{ padding: '5px', display: 'inline-block' }}>
-      <button disabled={!active} onClick={handleClick} style={{ width: '50px' }}>Select</button>
+    <div className="columnSelectorContainer">
+      <button disabled={!active} onClick={handleClick} className="columnSelector">Select</button>
     </div>
   );
 }
@@ -212,11 +191,18 @@ Now we can tie it all together. We need several things, including:
 
 * A way to determine whether a particular column is valid for a new disc
 * A way to handle a player's selection of a valid column
-* Rendering the board, the column selectors, an indicator of whose turn it is and a victory message once a player has won.
+* Rendering the board, the column selectors, and a message indicating either the current player or the winner
 
 Here's what I've come up with:
 
 ``` js
+import React from 'react';
+import { emptyCell, numOfColumns, numOfRows, p1disc, p2disc, playerDiscLookup } from './constants';
+// Discs from http://fontawesome.io/icon/circle/
+import WhiteDisc from './circular-shape-silhouette-white.svg';
+import BlueDisc from './circular-shape-silhouette-blue.svg';
+import RedDisc from './circular-shape-silhouette-red.svg';
+
 class FourInARowBoard extends React.Component {
   onClick(columnIdx) {
     if (this.isActive(columnIdx)) {
@@ -227,19 +213,19 @@ class FourInARowBoard extends React.Component {
 
   isActive(columnIdx) {
     if (this.props.ctx.winner !== null) return false;
-    if (this.props.G.grid[0][columnIdx] !== 0) return false;
+    // If the top row of a column is not empty, we shouldn't allow another disc.
+    if (this.props.G.grid[0][columnIdx] !== emptyCell) return false;
     return true;
   }
 
   render() {
-    let winner = '';
-    let currentPlayer = '';
+    let message = '';
     if (this.props.ctx.winner !== null) {
-      winner = <span>Winner: Player {parseInt(this.props.ctx.winner, 10) + 1}</span>;
+      message = <span>Winner: Player {playerDiscLookup[this.props.ctx.currentPlayer]}</span>;
     } else {
-      currentPlayer = <span>Current Player: Player {parseInt(this.props.ctx.currentPlayer, 10) + 1}</span>;
+      message = <span>Current Player: Player {playerDiscLookup[this.props.ctx.currentPlayer]}</span>;
     }
-    const selectors = [0, 1, 2, 3, 4, 5, 6].map(idx =>
+    const selectors = Array(numOfColumns).fill().map((_, i) => i).map(idx =>
       <ColumnSelector
         active={this.isActive(idx)}
         handleClick={() => this.onClick(idx)}
@@ -250,8 +236,7 @@ class FourInARowBoard extends React.Component {
       <div>
         <h1>Four In A Row</h1>
         <div>
-          {currentPlayer}
-          {winner}
+          {message}
         </div>
         {selectors}
         <Grid grid={this.props.G.grid} />
@@ -261,9 +246,16 @@ class FourInARowBoard extends React.Component {
 }
 ```
 
-A few minor CSS changes (e.g. changing the background colour so our cells stand out) and we have a working game!
+Sprinkle on some [CSS](https://github.com/PJohannessen/four-in-a-row/blob/master/src/index.css). and we have a working game!
 
 ![four-in-a-row finished game](/img/four-in-a-row-boardgameio_2.png)
+
+The final `FourInARowBoard.jsx` file can be found [here](https://github.com/PJohannessen/four-in-a-row/blob/master/src/FourInARowBoard.jsx). All the code is available in the repository, and you can give the game a try by cloning the repository and running:
+
+```
+npm install
+npm start
+```
 
 
 ## Conclusion
