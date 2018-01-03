@@ -1,7 +1,7 @@
 +++
 title = "Revisiting a Site Built On Azure Functions"
 draft = false
-date = "2017-01-03"
+date = "2018-01-03"
 slug = "revisiting-a-site-on-azure-functions"
 +++
 
