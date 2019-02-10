@@ -26,7 +26,6 @@
   box-sizing: border-box;
 }
 a,
-a:visited,
 a:focus,
 a:active {
   text-decoration: none;
@@ -183,9 +182,6 @@ section.header .name {
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   color: #333;
   text-transform: uppercase;
   color: #555;
@@ -195,9 +191,6 @@ section.header h3.self-intro {
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   color: #333;
   font-weight: 400;
   color: #555;
@@ -235,6 +228,7 @@ section.header nav ul a {
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
+  transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.header nav ul a:hover {
   color: #111;
@@ -296,6 +290,7 @@ section.icons .content a {
   -moz-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
+  transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.icons .content a:first-child {
   margin-left: 0;
@@ -309,6 +304,9 @@ section.icons .content a:hover {
 section.icons .content a .icon {
   width: 16px;
   height: 16px;
+}
+section.icons .content a .flag {
+  border-radius: 50%;
 }
 @media (min-width: 600px) {
   section.icons {
@@ -356,9 +354,6 @@ section.main .content .title-container .initials {
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   color: #333;
   text-transform: uppercase;
   color: #666;
@@ -369,6 +364,7 @@ section.main .content .title-container .initials a {
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
+  transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.main .content .title-container .initials a:hover {
   color: #333;
@@ -378,9 +374,6 @@ section.main .content .page-heading {
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   color: #333;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -389,7 +382,6 @@ section.main .content .front-matter .page-heading {
   margin-bottom: 0;
 }
 section.main .content .front-matter .meta {
-  font-size: 14px;
   color: #666;
   display: -webkit-flex;
   display: -moz-flex;
@@ -487,12 +479,26 @@ section.main .container .content .post-item {
   list-style: disc inside;
 }
 section.main .container .content .post-item .meta {
-  font-size: 14px;
   color: #666;
   display: none;
   min-width: 100px;
   text-align: right;
   margin-right: 16px;
+}
+section.main .container .content .no-bullet {
+  color: transparent;
+  font-style: oblique;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+section.main .container .content .no-bullet .date {
+  font-size: 18px;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  letter-spacing: -0.005rem;
+  font-weight: 700;
+  color: #333;
+  color: #666 !important;
+  font-style: normal;
 }
 section {
   padding: 0 16px;
@@ -543,6 +549,7 @@ a {
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
+  transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 a:hover {
   color: #2a6496;
@@ -572,9 +579,6 @@ section.main .content .markdown h6 {
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   color: #333;
   text-transform: none;
   margin-top: 1.75rem;
@@ -588,7 +592,7 @@ section.main .content .markdown h2 {
   margin-bottom: 1.5rem;
 }
 section.main .content .markdown h3 {
-  font-size: 1em;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 section.main .content .markdown h4,
@@ -601,16 +605,16 @@ section.main .content .markdown h6 {
 section.main .content .markdown code,
 section.main .content .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
-  font-size: 1rem;
-  background-color: #f7f7f7;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
-  padding: .15em .5em;
+  background-color: #f7f7f7;
   border-radius: 2px;
 }
 section.main .content .markdown pre {
   /* Hugo specific: consider using the 'highlight' shortcode */
+  background-color: #282a36;
+  color: #FFFFFF;
   display: block;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -623,8 +627,8 @@ section.main .content .markdown pre {
 }
 section.main .content .markdown pre code {
   /* enclosed by 3 backticks (```) */
+  background-color: #282a36;
   padding: 0;
-  font-size: 1rem;
 }
 section.main .content .markdown a code {
   color: #428bca !important;
@@ -648,24 +652,19 @@ section.main .content .markdown dt {
   font-weight: bold;
 }
 section.main .content .markdown dd {
-  margin-bottom: .5rem;
 }
 section.main .content .markdown ul {
   margin-bottom: 1.25rem;
 }
-section.main .content .markdown ul {
+section.main .content .markdown ul li {
   list-style-type: disc;
-  list-style-position: inside;
 }
-section.main .content .markdown ol {
+section.main .content .markdown ol li {
   list-style-type: decimal;
-  list-style-position: inside;
 }
-section.main .content .markdown ul ul,
-section.main .content .markdown ul ol,
-section.main .content .markdown ol ul,
-section.main .content .markdown ol ol {
-  padding-left: 25px;
+section.main .content .markdown li {
+  list-style-position: outside;
+  margin-left: 1em;
 }
 section.main .content .markdown em {
   font-style: italic;
@@ -706,9 +705,24 @@ section.main .content .markdown blockquote p:last-child {
   }
 }
 section.main .content .markdown img {
+  display: block;
+  margin: 0 auto;
+}
+
+section.main .content .markdown figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+section.main .content .markdown figure figcaption h4 {
+  color: #6c757d;
+  font-weight: normal;
+  font-size: 0.9rem;
   margin: 1rem 0;
   max-width: 100%;
+  text-align: center;
 }
+
 section.main .content .markdown table {
   margin-bottom: 1rem;
   width: 100%;
@@ -717,7 +731,6 @@ section.main .content .markdown table {
 }
 section.main .content .markdown td,
 section.main .content .markdown th {
-  padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
 }
 section.main .content .markdown tbody tr:nth-child(odd) td,
