@@ -1,7 +1,8 @@
 +++
-title = "about"
+title = "About"
 draft = false
 date = "2016-12-04T18:28:38+10:00"
+slug = "about"
 
 +++
 

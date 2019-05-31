@@ -18,9 +18,9 @@ fixed = ":title/"
 blog = "blog/:slug/"
 
 [[menu.main]]
-name                   = "Home"
+name                   = "Blog"
 weight                 = -120
-identifier             = "home"
+identifier             = "blog"
 url                    = "/"
 
 [[menu.main]]
@@ -28,6 +28,12 @@ name                   = "About"
 weight                 = -110
 identifier             = "about"
 url                    = "/about/"
+
+[[menu.main]]
+name                   = "Reading List"
+weight                 = -100
+identifier             = "reading"
+url                    = "/reading/"
 
 [params]
 author                 = "Patrick Johannessen"

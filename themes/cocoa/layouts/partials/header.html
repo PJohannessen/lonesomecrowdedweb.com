@@ -29,9 +29,21 @@
             {{ end }}
             <nav>
                 <ul>
-                    {{ range .Site.Menus.main }}
-                        <li class="nav-{{ .Identifier }}"><a href="{{ .URL | absLangURL }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>
-                    {{ end }}
+                    <li class="nav-blog {{ if or (eq .Section "") (eq .Section "blog") }}active{{ end }}">
+                        <a href="/">
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li class="nav-about {{ if eq .Title "About" }}active{{ end }} {{.Section}}">
+                        <a href="/about/">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav-about {{ if eq .Title "Reading List" }}active{{ end }} {{.Section}}">
+                        <a href="/reading-list/">
+                            <span>Reading List</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
