@@ -11,7 +11,10 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-* [Lady of the Lake](https://www.goodreads.com/book/show/32186143-lady-of-the-lake), by Andrzej Sapkowski 📓
+* [Mythos: The Greek Myths Retold](https://www.goodreads.com/book/show/35074096-mythos), by Stephen Fry 🎧
+* [Structure and Interpretation of Computer Programs](https://www.goodreads.com/book/show/43713.Structure_and_Interpretation_of_Computer_Programs), by Harold Abelson,  Gerald Jay Sussman, Julie Sussman 📓
+* [The Final Cut](https://www.goodreads.com/book/show/23018618-the-final-cut), by Michael Dobbs 📘
+
 
 ### 2019
 
@@ -38,7 +41,22 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. [Bossypants](https://www.goodreads.com/book/show/12090316-bossypants), by Tina Fey 🎧
 1. [Baptism of Fire](https://www.goodreads.com/book/show/18924205-baptism-of-fire), by Andrzej Sapkowski 📓
 1. [The Tower of Swallows](https://www.goodreads.com/book/show/29340636-the-tower-of-swallows), by Andrzej Sapkowski 📓
-* [Columbus Day](https://www.goodreads.com/book/show/33958124-columbus-day), by Craig Alanson 🎧
+1. [Columbus Day](https://www.goodreads.com/book/show/33958124-columbus-day), by Craig Alanson 🎧
+1. [Lady of the Lake](https://www.goodreads.com/book/show/32186143-lady-of-the-lake), by Andrzej Sapkowski 📓
+1. [Season of Storms](https://www.goodreads.com/book/show/36185216-season-of-storms), by Andrzej Sapkowski 📓
+1. [Treasure Island](https://www.goodreads.com/book/show/295.Treasure_Island), by Robert Louis Stevenson 📓
+1. [The 5 Love Languages: The Secret to Love that Lasts](https://www.goodreads.com/book/show/23878688-the-5-love-languages), by Gary Chapman 📓
+1. [And Then There Were None](https://www.goodreads.com/book/show/6251563-and-then-there-were-none), by Agatha Christie 📓
+1. [On Writing Well: The Classic Guide to Writing Nonfiction](https://www.goodreads.com/book/show/53343.On_Writing_Well), by William Zinsser 📘
+1. [Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch](https://www.goodreads.com/book/show/12067.Good_Omens), by Terry Pratchett, Neil Gaiman 🎧
+1. [About a Boy](https://www.goodreads.com/book/show/4273.About_a_Boy), by Nick Hornby 📘
+1. [Molly's Game](https://www.goodreads.com/book/show/22206686-molly-s-game), by Molly Bloom 📘
+1. [The Silver Linings Playbook](https://www.goodreads.com/book/show/16669567-the-silver-linings-playbook), by Matthew Quick 📘
+1. [The Girl on the Train](https://www.goodreads.com/book/show/23347055-the-girl-on-the-train), by Paula Hawkins 📘
+1. [Hyperion](https://www.goodreads.com/book/show/23156063-hyperion), by Dan Simmons 🎧
+1. [Big Little Lies](https://www.goodreads.com/book/show/22057173-big-little-lies), by Liane Moriarty 📘
+1. [House of Cards](https://www.goodreads.com/book/show/1408078.House_of_Cards), by Michael Dobbs 📘
+1. [To Play the King](https://www.goodreads.com/book/show/23018676-to-play-the-king), by Michael Dobbs 📘
 
 ### 2018
 1. [Snow Crash](https://www.goodreads.com/book/show/11357844-snow-crash), by Neal Stephenson 📘
