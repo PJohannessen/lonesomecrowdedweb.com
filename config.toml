@@ -3,12 +3,13 @@ builddrafts = false
 canonifyurls = true
 contentdir = "content"
 author = "Patrick Johannessen"
-title = "Lonesome Crowded Web"
+title = "The Lonesome Crowded Web"
 languageCode = "en-AU"
 layoutdir = "layouts"
 publishdir = "public"
 pygmentsStyle       = "dracula"
 pygmentsCodeFences  = true
+pygmentsUseClasses  = false
 disqusshortname     = "lonesomecrowdedweb"
 pluralizelisttitles = false
 googleAnalytics = "UA-88445668-1"
@@ -19,37 +20,48 @@ blog = "blog/:slug/"
 
 [[menu.main]]
 name                   = "Blog"
-weight                 = -120
+weight                 = -130
 identifier             = "blog"
 url                    = "/"
 
 [[menu.main]]
 name                   = "About"
-weight                 = -110
+weight                 = -120
 identifier             = "about"
 url                    = "/about/"
 
 [[menu.main]]
+name                   = "Projects"
+weight                 = -110
+identifier             = "projects"
+url                    = "/projects/"
+
+[[menu.main]]
 name                   = "Reading List"
 weight                 = -100
-identifier             = "reading"
-url                    = "/reading/"
+identifier             = "reading-list"
+url                    = "/reading-list/"
 
 [params]
 author                 = "Patrick Johannessen"
 cachebuster            = true
+copyright              = "© Patrick Johannessen {year}"
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Don't panic"
-github                 = "https://github.com/pjohannessen"
+disablefancyfonts      = false
+enlarged               = true
+github                 = "pjohannessen"
 gravatar               = "823bf30ed436754804af7fb9a61a102c"
+highlightjs            = false
 i18n_flags             = false                         # whether to display small country flags for available translations
 include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
-instagram              = "https://www.instagram.com/pajohannessen/"
+instagram              = "pajohannessen"
 lang                   = "en"
-latestpostscount       = 10                            # how many posts to display on the home page
-linkedin               = "https://www.linkedin.com/in/patrickjohannessen"
+latestpostcount        = 10                            # how many posts to display on the home page
+linkedin               = "patrickjohannessen"
+logofile               = ""
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
 stackoverflow          = "https://stackoverflow.com/users/129967/patrickj"
 title                  = "The Lonesome Crowded Web"
-twitter                = "https://twitter.com/pajohannessen"
+twitter                = "pajohannessen"

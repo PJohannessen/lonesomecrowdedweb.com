@@ -1,0 +1,12 @@
+div.main .content .markdown figure {
+width: 110%;
+margin-left: -4%;
+}
+div.main .content .markdown img {
+display: block;
+margin: 0 auto;
+}
+div.main .content .markdown pre {
+width: 110%;
+margin-left: -4%;
+}

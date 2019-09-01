@@ -1,0 +1,8 @@
+div.main .content p {
+    font-size: 14px;
+}
+
+div.main .content .markdown figure img {
+    border:1px solid #999999;
+    width: 80%
+}

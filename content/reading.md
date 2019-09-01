@@ -1,7 +1,6 @@
 +++
 title = "Reading List"
 draft = false
-date = "2019-05-31T20:30:00+10:00"
 slug = "reading-list"
 
 +++

@@ -9,7 +9,7 @@ slug = "broken-redirect"
 
 I was recently trying to renew the Let's Encrypt certificate for this site, but doing so failed with the following error (and an accompanying 404 Not Found):
 
-```
+``` plaintext
 Cert is due for renewal, auto-renewing...
 Renewing an existing certificate
 Performing the following challenges:
@@ -44,23 +44,23 @@ Hitting the site over HTTP in Chrome would redirect me to HTTPS. The site has la
 
 A few weeks ago I received a reminder to renew my Let's Expiry certificate, but attempting to do so resulted in the aforementioned error. After googling for some quick tips, I started by clumsily navigating my way through the server and verified that the target `.well-known` folder was available.
 
-``` console
+``` plaintext
 patrick@ubuntu-512mb-sgp1-01:/var/www/html/lonesomecrowdedweb.com$ ls -a
 .   404.html  blog  .DS_Store  .gitkeep  index.html  sitemap.xml
 ..  about     css   fixed      img       index.xml   .well-known
 ```
 
-No issues there. I took a closer look at the URL it was attempting to hit and realised it was using HTTP. [Another search](https://github.com/certbot/certbot/issues/1343) confirmed that it should be following 301/302 redirects, which I thought I had in place. Back to Chrome and:
+No issues there. I took a closer look at the URL it was attempting to hit and realised it was using HTTP. [Another search](https://github.com/certbot/certbot/issues/1343) confirmed that it should be following 301 or 302 redirects, which I thought I had in place. Back to Chrome and:
 
-```
+``` plaintext
 Request URL:http://www.lonesomecrowdedweb.com/
 Request Method:GET
 Status Code:307 Internal Redirect
 ```
 
-No 301/302, but a 307 instead - not something I expected to encounter. [Some more research](https://www.seroundtable.com/google-307-http-strict-transport-security-19357.html) and it was starting to make sense. I had also enabled HSTS - a helpful mechanism for ensuring that browsers connect only using HTTPS - and Chrome was enforcing that by way of a 307 Internal Redirect. I confirmed this by visiting `chrome://net-internals/#hsts` and querying my domain:
+No 301 or 302, but a 307 instead - not something I expected to encounter. [Some more research](https://www.seroundtable.com/google-307-http-strict-transport-security-19357.html) and it was starting to make sense. I had also enabled HSTS - a helpful mechanism for ensuring that browsers connect only using HTTPS - and Chrome was enforcing that by way of a 307 Internal Redirect. I confirmed this by visiting `chrome://net-internals/#hsts` and querying my domain:
 
-```
+``` plaintext
 static_sts_domain: 
 static_upgrade_mode: UNKNOWN
 static_sts_include_subdomains: 
@@ -81,7 +81,7 @@ dynamic_spki_hashes:
 
 Deleting the domain didn't seem to be enough, as Chrome continued to enforce this policy. HSTS relies on having accessed the website previously, which I had done so in this browser many times. As such it was easiest just to try another browser - and it was a good thing I did:
 
-```
+``` plaintext
 Welcome to nginx!
 
 If you see this page, the nginx web server is successfully installed and working. Further configuration is required.
