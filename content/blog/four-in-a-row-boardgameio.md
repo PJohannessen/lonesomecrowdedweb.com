@@ -22,7 +22,7 @@ Four In A Row involves two players taking turns dropping discs in to a seven-col
 
 The boardgame.io tutorial is built using [create-react-app](https://github.com/facebookincubator/create-react-app), so I'll be sticking with that for this excercise. Getting started is as simple as a few commands:
 
-```
+``` text
 $ npm install -g create-react-app
 $ create-react-app four-in-a-row
 $ cd four-in-a-row
@@ -252,7 +252,7 @@ Sprinkle on some [CSS](https://github.com/PJohannessen/four-in-a-row/blob/master
 
 The final `FourInARowBoard.jsx` file can be found [here](https://github.com/PJohannessen/four-in-a-row/blob/master/src/FourInARowBoard.jsx). All the code is available in the repository, and you can give the game a try by cloning the repository and running:
 
-```
+``` text
 npm install
 npm start
 ```

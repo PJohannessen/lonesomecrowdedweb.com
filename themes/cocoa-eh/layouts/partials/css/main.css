@@ -637,7 +637,7 @@ div.main .content .markdown figure img {
   display: block;
   position: static;
   margin: auto;
-  border:1px dashed #999999;
+  border:1px solid #999999;
 }
 div.main .content .markdown figure figcaption h4 {
   color: #6c757d;

@@ -108,7 +108,7 @@ Can you spot the problem? It's subtle...
 
 A simple typo! But why the generic NGINX page? Well, when setting up the configuration initially I used a sepearte server block for this domain and left the existing `default` block in place with the `default_server` option enabled. This was unnecessary (and confusing), so I disabled the default site, corrected the redirect and attempted another certificate renewal:
 
-```
+``` text
 Cert is due for renewal, auto-renewing...
 Renewing an existing certificate
 Performing the following challenges:

@@ -9,7 +9,7 @@ I'm a big fan of the [DbUp](https://github.com/DbUp/DbUp) library and its approa
 
 Historically I have been able to do most things with this raw SQL approach. I've created these scripts with a fairly typical (I think) naming convention like so:
 
-```
+``` text
 0001 - This is a script.sql
 0002 - This is another script.sql
 0003 - And this is another script.sql
@@ -17,7 +17,7 @@ Historically I have been able to do most things with this raw SQL approach. I've
 
 These scripts are then excuted and applied in the expected order:
 
-```
+``` text
 Id          ScriptName
 ----------- -----------------------------------------------------------
 1           Project.Data.Scripts.0001 - This is a script.sql           
@@ -27,13 +27,13 @@ Id          ScriptName
 
 Recently I required a bit more logic than usual, so updated my project to use the [EmbeddedScriptAndCodeProvider](http://dbup.readthedocs.io/en/latest/more-info/script-providers/#embeddedscriptandcodeprovider) so that it could utilise some code-based scripts, like so:
 
-```
+``` text
 0004 - Code Script.cs
 ```
 
 This is fine for a filename but not so much for a C# class, which by default gives us `_0004___Code_Script` (or a similar, conformant name). When executed this gives us:
 
-```
+``` text
 Id          ScriptName                                                 
 ----------- -----------------------------------------------------------
 1           Project.Data.Scripts._0004___Code_Script.cs                
@@ -44,7 +44,7 @@ Id          ScriptName
 
 Not the order I wanted as the type name is used! I can rename the class some more and defer the problem to later if I really wanted:
 
-```
+``` text
 Id          ScriptName                                                 
 ----------- -----------------------------------------------------------
 1           Project.Data.Scripts.0001 - This is a script.sql            
@@ -56,7 +56,7 @@ Id          ScriptName
 
 From what I can tell a more common approach is to name scripts not just with a number, but with an additional prefix like this (taken from the [DbUp Sample Application](https://github.com/DbUp/DbUp/tree/master/src/Samples/SampleApplication)):
 
-```
+``` text
 Id          ScriptName                                               
 ----------- ---------------------------------------------------------
 1           SampleApplication.Scripts.Script0001 - Create tables.sql 
@@ -135,7 +135,7 @@ private IEnumerable<SqlScript> ScriptsFromScriptClasses(IConnectionManager conne
 
 And voila!
 
-```
+``` text
 Id          ScriptName                                                 
 ----------- -----------------------------------------------------------
 1           Project.Data.Scripts.0001 - This is a script.sql           
