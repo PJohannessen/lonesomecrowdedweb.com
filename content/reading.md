@@ -10,9 +10,10 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-* [Mythos: The Greek Myths Retold](https://www.goodreads.com/book/show/35074096-mythos), by Stephen Fry 🎧
+
 * [Structure and Interpretation of Computer Programs](https://www.goodreads.com/book/show/43713.Structure_and_Interpretation_of_Computer_Programs), by Harold Abelson,  Gerald Jay Sussman, Julie Sussman 📓
-* [The Final Cut](https://www.goodreads.com/book/show/23018618-the-final-cut), by Michael Dobbs 📘
+* [The Fall of Hyperion](https://www.goodreads.com/book/show/10429950-the-fall-of-hyperion), by Dan Simmons 🎧
+* [A Dream About Lightning Bugs](goodreads.com/book/show/47501964-a-dream-about-lightning-bugs), by Ben Folds 📘
 
 
 ### 2019
@@ -56,6 +57,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. [Big Little Lies](https://www.goodreads.com/book/show/22057173-big-little-lies), by Liane Moriarty 📘
 1. [House of Cards](https://www.goodreads.com/book/show/1408078.House_of_Cards), by Michael Dobbs 📘
 1. [To Play the King](https://www.goodreads.com/book/show/23018676-to-play-the-king), by Michael Dobbs 📘
+1. [Mythos: The Greek Myths Retold](https://www.goodreads.com/book/show/35074096-mythos), by Stephen Fry 🎧
+1. [The Final Cut](https://www.goodreads.com/book/show/23018618-the-final-cut), by Michael Dobbs 📘
 
 ### 2018
 1. [Snow Crash](https://www.goodreads.com/book/show/11357844-snow-crash), by Neal Stephenson 📘
