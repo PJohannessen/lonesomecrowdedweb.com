@@ -5,13 +5,15 @@ slug = "reading-list"
 
 +++
 
-I like to read. I also like making lists; so I have combined the two below! My current goal is to read (or listen to) one book every week.
+I like to read. I also like making lists; so I have combined the two below! My current goal is to read (or listen to) an average of one book every week.
 
 
 ### Currently Reading
 
-* {{< ebook id="23093801" title="Doomsday Book" authors="Connie Willis" >}}
-* {{< audiobook id="7991639" title="Endymion" authors="Dan Simmons" >}}
+* {{< ebook id="33514" title="The Elements of Style" authors="William Strunk Jr., E.B. White" >}}
+* {{< audiobook id="15992152" title="The Rise of Endymion" authors="Dan Simmons" >}}
+* {{< ebook id="32603498" title="The Divide: A Brief Guide to Global Inequality and its Solutions" authors="Jason Hickel" >}}
+
 
 ### 2019
 
@@ -59,6 +61,15 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. [Structure and Interpretation of Computer Programs](https://www.goodreads.com/book/show/43713.Structure_and_Interpretation_of_Computer_Programs), by Harold Abelson,  Gerald Jay Sussman, Julie Sussman 📓
 1. [The Fall of Hyperion](https://www.goodreads.com/book/show/10429950-the-fall-of-hyperion), by Dan Simmons 🎧
 1. [A Dream About Lightning Bugs](https://www.goodreads.com/book/show/47501964-a-dream-about-lightning-bugs), by Ben Folds 📘
+1. {{< ebook id="23093801" title="Doomsday Book" authors="Connie Willis" >}}
+1. {{< ebook id="10569" title="On Writing: A Memoir of the Craft" authors="Stephen King" >}}
+1. {{< ebook id="6251566" title="The Murder of Roger Ackroyd" authors="Agatha Christie" >}}
+1. {{< paperback id="13629" title="The Mythical Man-Month: Essays on Software Engineering" authors="Frederick P. Brooks Jr." >}}
+1. {{< audiobook id="7991639" title="Endymion" authors="Dan Simmons" >}}
+1. {{< ebook id="6581525" title="Moneyball: The Art of Winning an Unfair Game" authors="Michael Lewis" >}}
+1. {{< audiobook id="25893200" title="Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture" authors="David Kushner" >}}
+1. {{< ebook id="11573" title="The Dead Zone" authors="Stephen King" >}}
+1. {{< ebook id="18802222" title="Remote: Office Not Required" authors="Jason Fried, David Heinemeier Hansson" >}}
 
 ### 2018
 1. [Snow Crash](https://www.goodreads.com/book/show/11357844-snow-crash), by Neal Stephenson 📘
