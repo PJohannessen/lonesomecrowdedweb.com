@@ -10,9 +10,7 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-* {{< ebook id="33514" title="The Elements of Style" authors="William Strunk Jr., E.B. White" >}}
-* {{< audiobook id="15992152" title="The Rise of Endymion" authors="Dan Simmons" >}}
-* {{< ebook id="32603498" title="The Divide: A Brief Guide to Global Inequality and its Solutions" authors="Jason Hickel" >}}
+* {{< ebook id="40776644" title="The Moment of Lift: How Empowering Women Changes the World" authors="Melinda Gates" >}}
 
 
 ### 2019
@@ -70,6 +68,10 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< audiobook id="25893200" title="Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture" authors="David Kushner" >}}
 1. {{< ebook id="11573" title="The Dead Zone" authors="Stephen King" >}}
 1. {{< ebook id="18802222" title="Remote: Office Not Required" authors="Jason Fried, David Heinemeier Hansson" >}}
+1. {{< ebook id="32603498" title="The Divide: A Brief Guide to Global Inequality and its Solutions" authors="Jason Hickel" >}}
+1. {{< ebook id="40121378" title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones" authors="James Clear" >}}
+1. {{< ebook id="6608615" title="The ABC Murders" authors="Agatha Christie" >}}
+1. {{< audiobook id="15992152" title="The Rise of Endymion" authors="Dan Simmons" >}}
 
 ### 2018
 1. [Snow Crash](https://www.goodreads.com/book/show/11357844-snow-crash), by Neal Stephenson 📘
