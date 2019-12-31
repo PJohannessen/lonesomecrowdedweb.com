@@ -10,7 +10,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-* {{< ebook id="40776644" title="The Moment of Lift: How Empowering Women Changes the World" authors="Melinda Gates" >}}
+* {{< ebook id="25837084" title="The Left Hand of Darkness" authors="Ursula K. Le Guin" >}}
+* {{< audiobook id="15739070" title="11.22.63 " authors="Stephen King" >}}
 
 
 ### 2019
@@ -72,6 +73,7 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="40121378" title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones" authors="James Clear" >}}
 1. {{< ebook id="6608615" title="The ABC Murders" authors="Agatha Christie" >}}
 1. {{< audiobook id="15992152" title="The Rise of Endymion" authors="Dan Simmons" >}}
+1. {{< ebook id="40776644" title="The Moment of Lift: How Empowering Women Changes the World" authors="Melinda Gates" >}}
 
 ### 2018
 1. [Snow Crash](https://www.goodreads.com/book/show/11357844-snow-crash), by Neal Stephenson 📘
