@@ -68,6 +68,19 @@ This app was an excuse to try hosting a website cheaply by utilizing [Azure Func
 
 ---
 
+### Yatzy
+
+<span class="project-links"><a href="https://www.lonesomecrowdedweb.com/yatzy/" target="_blank" rel="noopener">Website</a> | <a href="/blog/yatzy-boardgameio/" target="_blank" rel="noopener">Blog</a> | 
+<a href="https://github.com/PJohannessen/yatzy" target="_blank" rel="noopener">Source Code</a></span>
+
+A simple game of [yatzy](https://en.wikipedia.org/wiki/Yatzy).
+
+A small project to demonstrate how to build a basic game with the [boardgame.io](https://boardgame.io/) framework, with accompanying <a href="/blog/yatzy-boardgameio/" target="_blank" rel="noopener">blog</a>.
+
+{{< figure src="/img/projects/yatzy_1.png" title="Yatzy with boardgame.io" >}}
+
+---
+
 ### Four In A Row
 
 <span class="project-links"><a href="https://www.lonesomecrowdedweb.com/blog/four-in-a-row-boardgameio/" target="_blank" rel="noopener">Blog</a> | 
