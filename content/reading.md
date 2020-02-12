@@ -10,8 +10,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-* {{< audiobook id="15739070" title="11.22.63 " authors="Stephen King" >}}
-* {{< ebook id="12964289" title="Caliban's War" authors="James S.A. Corey" >}}
+* {{< ebook id="567610" title="How to Read a Book: The Classic Guide to Intelligent Reading" authors="Mortimer J. Adler, Charles Van Doren" >}}
+* {{< audiobook id="37558445" title="Boy Swallows Universe" authors="Trent Dalton" >}}
 
 ### 2020
 
@@ -20,6 +20,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< paperback id="8366074" title="The Handmaid's Tale" authors="Margaret Atwood" >}}
 1. {{< ebook id="6732019" title="Rework" authors="Jason Fried, David Heinemeier Hansson" >}}
 1. {{< ebook id="11570653" title="The Butcher of Anderson Station" authors="James S.A. Corey" >}}
+1. {{< audiobook id="15739070" title="11.22.63 " authors="Stephen King" >}}
+1. {{< ebook id="12964289" title="Caliban's War" authors="James S.A. Corey" >}}
 
 ### 2019
 
