@@ -10,8 +10,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-* {{< ebook id="567610" title="How to Read a Book: The Classic Guide to Intelligent Reading" authors="Mortimer J. Adler, Charles Van Doren" >}}
-* {{< audiobook id="37558445" title="Boy Swallows Universe" authors="Trent Dalton" >}}
+* {{< audiobook id="11232016" title="The Stand" authors="Stephen King" >}}
+* {{< ebook id="53141641" title="This is esports (and How to Spell it): An Insider’s Guide to the World of Pro Gaming" authors="Paul Chaloner" >}}
 
 ### 2020
 
@@ -20,8 +20,21 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< paperback id="8366074" title="The Handmaid's Tale" authors="Margaret Atwood" >}}
 1. {{< ebook id="6732019" title="Rework" authors="Jason Fried, David Heinemeier Hansson" >}}
 1. {{< ebook id="11570653" title="The Butcher of Anderson Station" authors="James S.A. Corey" >}}
-1. {{< audiobook id="15739070" title="11.22.63 " authors="Stephen King" >}}
+1. {{< audiobook id="15739070" title="11.22.63" authors="Stephen King" >}}
 1. {{< ebook id="12964289" title="Caliban's War" authors="James S.A. Corey" >}}
+1. {{< ebook id="567610" title="How to Read a Book: The Classic Guide to Intelligent Reading" authors="Mortimer J. Adler, Charles Van Doren" >}}
+1. {{< ebook id="51117957" title="Whistleblower: My Journey to Silicon Valley and Fight for Justice at Uber" authors=" Susan Fowler" >}}
+1. {{< ebook id="15837317" title="Gods of Risk" authors="James S.A. Corey" >}}
+1. {{< paperback id="5387987" title="A Clockwork Orange" authors="Anthony Burgess" >}}
+1. {{< ebook id="16131032" title="Abaddon's Gate" authors="James S.A. Corey" >}}
+1. {{< ebook id="21530921" title="The Churn" authors="James S.A. Corey" >}}
+1. {{< audiobook id="37558445" title="Boy Swallows Universe" authors="Trent Dalton" >}}
+1. {{< ebook id="37976541" title="Bad Blood: Secrets and Lies in a Silicon Valley Startup" authors="John Carreyrou" >}}
+1. {{< paperback id="826531" title="Zen and the Art of Motorcycle Maintenance" authors="Robert M. Pirsig" >}}
+1. {{< paperback id="12005016" title="Steve Jobs" authors="Walter Isaacson" >}}
+1. {{< ebook id="18656030" title="Cibola Burn" authors="James S.A. Corey" >}}
+1. {{< ebook id="6251565" title="Death on the Nile" authors="Agatha Christie" >}}
+1. {{< paperback id="6048235" title="Lolita" authors="Vladimir Nabokov" >}}
 
 ### 2019
 
