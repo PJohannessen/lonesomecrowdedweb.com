@@ -10,8 +10,7 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-* {{< audiobook id="11232016" title="The Stand" authors="Stephen King" >}}
-* {{< ebook id="53141641" title="This is esports (and How to Spell it): An Insider’s Guide to the World of Pro Gaming" authors="Paul Chaloner" >}}
+* {{< audiobook id="43637074" title="Shōgun" authors="James Clavell" >}}
 
 ### 2020
 
@@ -35,6 +34,16 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="18656030" title="Cibola Burn" authors="James S.A. Corey" >}}
 1. {{< ebook id="6251565" title="Death on the Nile" authors="Agatha Christie" >}}
 1. {{< paperback id="6048235" title="Lolita" authors="Vladimir Nabokov" >}}
+1. {{< audiobook id="11232016" title="The Stand" authors="Stephen King" >}}
+1. {{< ebook id="53141641" title="This is esports (and How to Spell it): An Insider’s Guide to the World of Pro Gaming" authors="Paul Chaloner" >}}
+1. {{< ebook id="36576608" title="Flowers for Algernon" authors="Daniel Keyes" >}}
+1. {{< audiobook id="23013953" title="Gut: The Inside Story of Our Body’s Most Underrated Organ" authors=" Giulia Enders" >}}
+1. {{< ebook id="22886612" title="Nemesis Games" authors="James S.A. Corey" >}}
+1. {{< ebook id="26170028" title="The Vital Abyss" authors="James S.A. Corey" >}}
+1. {{< ebook id="18956" title="Homicide: A Year on the Killing Streets" authors="David Simon" >}}
+1. {{< ebook id="5129" title="Brave New World" authors="Aldous Huxley" >}}
+1. {{< ebook id="33313" title="Kitchen Confidential: Adventures in the Culinary Underbelly" authors="Anthony Bourdain" >}}
+1. {{< ebook id="36402034" title="Do Androids Dream of Electric Sheep?" authors="Philip K. Dick" >}}
 
 ### 2019
 
