@@ -13,6 +13,8 @@ pygmentsUseClasses  = false
 disqusshortname     = "lonesomecrowdedweb"
 pluralizelisttitles = false
 googleAnalytics = "UA-88445668-1"
+disablekinds = ["section", "taxonomy", "taxonomyTerm"]
+ignoreErrors = ["error-disable-taxonomy"]
 
 [permalinks]
 fixed = ":title/"
@@ -51,6 +53,7 @@ dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Patrick Johannessen is a software developer based in Brisbane, Australia."
 disablefancyfonts      = false
 enlarged               = true
+faviconfile            = "img/favicon.png"
 github                 = "pjohannessen"
 gravatar               = "823bf30ed436754804af7fb9a61a102c"
 highlightjs            = false

@@ -34,37 +34,37 @@ Recently I required a bit more logic than usual, so updated my project to use th
 This is fine for a filename but not so much for a C# class, which by default gives us `_0004___Code_Script` (or a similar, conformant name). When executed this gives us:
 
 ``` text
-Id          ScriptName                                                 
+Id          ScriptName
 ----------- -----------------------------------------------------------
-1           Project.Data.Scripts._0004___Code_Script.cs                
-2           Project.Data.Scripts.0001 - This is a script.sql           
-3           Project.Data.Scripts.0002 - This is another script.sql     
-4           Project.Data.Scripts.0003 - And this is another script.sql 
+1           Project.Data.Scripts._0004___Code_Script.cs
+2           Project.Data.Scripts.0001 - This is a script.sql
+3           Project.Data.Scripts.0002 - This is another script.sql
+4           Project.Data.Scripts.0003 - And this is another script.sql
 ```
 
 Not the order I wanted as the type name is used! I can rename the class some more and defer the problem to later if I really wanted:
 
 ``` text
-Id          ScriptName                                                 
+Id          ScriptName
 ----------- -----------------------------------------------------------
-1           Project.Data.Scripts.0001 - This is a script.sql            
-2           Project.Data.Scripts.0002 - This is another script.sql      
-3           Project.Data.Scripts.0003 - And this is another script.sql  
-4           Project.Data.Scripts.0005 - Back to sql scripts.sql         
-5           Project.Data.Scripts.Script0004_CodeScript.cs               
+1           Project.Data.Scripts.0001 - This is a script.sql
+2           Project.Data.Scripts.0002 - This is another script.sql
+3           Project.Data.Scripts.0003 - And this is another script.sql
+4           Project.Data.Scripts.0005 - Back to sql scripts.sql
+5           Project.Data.Scripts.Script0004_CodeScript.cs
 ```
 
 From what I can tell a more common approach is to name scripts not just with a number, but with an additional prefix like this (taken from the [DbUp Sample Application](https://github.com/DbUp/DbUp/tree/master/src/Samples/SampleApplication)):
 
 ``` text
-Id          ScriptName                                               
+Id          ScriptName
 ----------- ---------------------------------------------------------
-1           SampleApplication.Scripts.Script0001 - Create tables.sql 
-2           SampleApplication.Scripts.Script0002 - Default feed.sql  
-3           SampleApplication.Scripts.Script0003 - Settings.sql      
-4           SampleApplication.Scripts.Script0004 - Redirects.sql     
-5           SampleApplication.Scripts.Script0005ComplexUpdate.cs     
-6           SampleApplication.Scripts.Script0006 - Transactions.sql  
+1           SampleApplication.Scripts.Script0001 - Create tables.sql
+2           SampleApplication.Scripts.Script0002 - Default feed.sql
+3           SampleApplication.Scripts.Script0003 - Settings.sql
+4           SampleApplication.Scripts.Script0004 - Redirects.sql
+5           SampleApplication.Scripts.Script0005ComplexUpdate.cs
+6           SampleApplication.Scripts.Script0006 - Transactions.sql
 ```
 
 
@@ -136,13 +136,13 @@ private IEnumerable<SqlScript> ScriptsFromScriptClasses(IConnectionManager conne
 And voila!
 
 ``` text
-Id          ScriptName                                                 
+Id          ScriptName
 ----------- -----------------------------------------------------------
-1           Project.Data.Scripts.0001 - This is a script.sql           
-2           Project.Data.Scripts.0002 - This is another script.sql     
-3           Project.Data.Scripts.0003 - And this is another script.sql 
-4           Project.Data.Scripts.0004 - Code Script.cs                 
-5           Project.Data.Scripts.0005 - Back to sql scripts.sql        
+1           Project.Data.Scripts.0001 - This is a script.sql
+2           Project.Data.Scripts.0002 - This is another script.sql
+3           Project.Data.Scripts.0003 - And this is another script.sql
+4           Project.Data.Scripts.0004 - Code Script.cs
+5           Project.Data.Scripts.0005 - Back to sql scripts.sql
 ```
 
 I'm now free to be as pedantic as I want. If there's already a way to do this then please feel free to let me know!

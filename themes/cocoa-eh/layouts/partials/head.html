@@ -3,9 +3,9 @@
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ if eq $url "" }}
-    {{ .Site.Title }}
+    Patrick Johannessen | {{ .Site.Title }}
 {{ else }}
-    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} - {{ .Site.Title }} {{ end }}
+    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} | Patrick Johannessen | {{ .Site.Title }} {{ end }}
 {{ end }}
 </title>
 <link rel="canonical" href="{{ .Permalink }}">
