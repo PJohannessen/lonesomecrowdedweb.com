@@ -11,6 +11,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 ### Currently Reading
 
 * {{< audiobook id="43637074" title="Shōgun" authors="James Clavell" >}}
+* {{< ebook id="23463279" title="Designing Data-Intensive Applications" authors="Martin Kleppmann" >}}
+* {{< ebook id="20342617" title="Just Mercy: A Story of Justice and Redemption" authors="Bryan Stevenson" >}}
 
 ### 2020
 
@@ -44,6 +46,16 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="5129" title="Brave New World" authors="Aldous Huxley" >}}
 1. {{< ebook id="33313" title="Kitchen Confidential: Adventures in the Culinary Underbelly" authors="Anthony Bourdain" >}}
 1. {{< ebook id="36402034" title="Do Androids Dream of Electric Sheep?" authors="Philip K. Dick" >}}
+1. {{< ebook id="52856373" title="The Resilience Project: Finding Happiness through Gratitude, Empathy and Mindfulness" authors="Hugh van Cuylenburg" >}}
+1. {{< ebook id="121648" title="Five Little Pigs " authors="Agatha Christie" >}}
+1. {{< ebook id="10639" title="The Paradox of Choice: Why More Is Less " authors="Barry Schwartz" >}}
+1. {{< ebook id="25877663" title="Babylon's Ashes " authors="James S.A. Corey" >}}
+1. {{< ebook id="23255422" title="So You've Been Publicly Shamed " authors="Jon Ronson" >}}
+1. {{< ebook id="6288" title="The Road" authors="Cormac McCarthy" >}}
+1. {{< ebook id="905" title="The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance " authors="W. Timothy Gallwey" >}}
+1. {{< ebook id="4981" title="Slaughterhouse-Five " authors="Kurt Vonnegut Jr." >}}
+1. {{< ebook id="21856367" title="The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution " authors="Walter Isaacson" >}}
+1. {{< ebook id="13651" title="The Dispossessed" authors="Ursula K. Le Guin" >}}
 
 ### 2019
 
