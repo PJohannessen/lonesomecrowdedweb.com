@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.lonesomecrowdedweb.com/sitemap.xml

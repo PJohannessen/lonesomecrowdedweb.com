@@ -45,8 +45,7 @@ This project started as far back as 2007. Once upon a time I had grand aspiratio
 
 ### Advent of Code solutions
 
-<span class="project-links">
-<a href="https://github.com/PJohannessen/AdventOfCode/" target="_blank" rel="noopener">My Solutions</a> | <a href="https://www.lonesomecrowdedweb.com/blog/advent-of-code-2018/" target="_blank" rel="noopener">Blog 1</a> | <a href="https://www.lonesomecrowdedweb.com/blog/catching-up-on-advent-of-code/" target="_blank" rel="noopener">Blog 2</a> | <a href="https://adventofcode.com" target="_blank" rel="noopener">Advent of Code</a></span>
+<span class="project-links"><a href="https://github.com/PJohannessen/AdventOfCode/" target="_blank" rel="noopener">My Solutions</a> | <a href="https://www.lonesomecrowdedweb.com/blog/advent-of-code-2018/" target="_blank" rel="noopener">Blog 1</a> | <a href="https://www.lonesomecrowdedweb.com/blog/catching-up-on-advent-of-code/" target="_blank" rel="noopener">Blog 2</a> | <a href="https://adventofcode.com" target="_blank" rel="noopener">Advent of Code</a></span>
 
 I have completed all of the puzzles in the 2015, 2016, 2017 and 2018 Advent of Code events. I have made available all my solutions, written in C# with [LINQPad](https://www.linqpad.net/) as my IDE.
 

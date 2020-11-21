@@ -15,6 +15,7 @@ pluralizelisttitles = false
 googleAnalytics = "UA-88445668-1"
 disablekinds = ["section", "taxonomy", "taxonomyTerm"]
 ignoreErrors = ["error-disable-taxonomy"]
+enableRobotsTXT = true
 
 [permalinks]
 fixed = ":title/"
