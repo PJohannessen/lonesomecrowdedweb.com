@@ -65,3 +65,6 @@ logofile               = ""
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
 title                  = "The Lonesome Crowded Web"
 twitter                = "pajohannessen"
+
+[markup.goldmark.renderer]
+unsafe = true
