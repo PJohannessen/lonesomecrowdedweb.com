@@ -17,16 +17,16 @@ At the start of every year I like to set myself some goals for the following 12 
 
 The good news is - I did it! I have now joined the [362-odd people](https://twitter.com/ericwastl/status/1116561274379259904) who have achieved all 200 available stars.
 
-{{< figure src="/img/catching-up-on-advent-of-code_2015.png" title="Advent of Code 2015" >}}
+{{< figure src="/img/catching-up-on-advent-of-code_2015.png" alt="Advent of Code 2015" title="Advent of Code 2015" >}}
 
 
-{{< figure src="/img/catching-up-on-advent-of-code_2016.png" title="Advent of Code 2016" >}}
+{{< figure src="/img/catching-up-on-advent-of-code_2016.png" title="Advent of Code 2016" title="Advent of Code 2016" >}}
 
 
-{{< figure src="/img/catching-up-on-advent-of-code_2017.png" title="Advent of Code 2017" >}}
+{{< figure src="/img/catching-up-on-advent-of-code_2017.png" alt="Advent of Code 2017" title="Advent of Code 2017" >}}
 
 
-{{< figure src="/img/catching-up-on-advent-of-code_2018.png" title="Advent of Code 2018" >}}
+{{< figure src="/img/catching-up-on-advent-of-code_2018.png" alt="Advent of Code 2018" title="Advent of Code 2018" >}}
 
 
 Once again I thought it would be worthwhile to reflect on the experience and share my thoughts, starting with the things I set out to improve upon...

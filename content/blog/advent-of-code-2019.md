@@ -9,9 +9,9 @@ Another year, another [Advent of Code](https://adventofcode.com/) event complete
 
 I had two goals for this year's event; completing it, and making a daily leaderboard at least once. I managed to do both!
 
-{{< figure src="/img/advent-of-code-2019_1.png" title="My completed advent calendar." >}}
+{{< figure src="/img/advent-of-code-2019_1.png" alt="My completed advent calendar." title="My completed advent calendar." >}}
 
-{{< figure src="/img/advent-of-code-2019_2.png" title="233 points acquired from days 10, 19 and 25." >}}
+{{< figure src="/img/advent-of-code-2019_2.png" alt="233 points acquired from days 10, 19 and 25." title="233 points acquired from days 10, 19 and 25." >}}
 
 I had been looking forward to this event all year. I was lucky enough to have a number of peers participating this year as well. At the end of each day we would often discuss the day's challenge, compare solutions and provide support to others in our group who were also particpating. This was a great addition that added a positive social component to an otherwise mostly solo affair, and I will certainly try and repeat this aspect in any possible future events.
 

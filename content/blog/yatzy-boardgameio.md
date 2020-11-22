@@ -531,11 +531,11 @@ The complete UI can be browsed on [GitHub](https://github.com/PJohannessen/yatzy
 
 Let's take a look at out finished game.
 
-{{< figure src="/img/yatzy-boardgameio_1.png" title="Selecting the number of players." >}}
+{{< figure src="/img/yatzy-boardgameio_1.png" alt="Selecting the number of players." title="Selecting the number of players." >}}
 
-{{< figure src="/img/yatzy-boardgameio_2.png" title="Playing the game." >}}
+{{< figure src="/img/yatzy-boardgameio_2.png" alt="Playing the game." title="Playing the game." >}}
 
-{{< figure src="/img/yatzy-boardgameio_3.png" title="Player 2 wins!" >}}
+{{< figure src="/img/yatzy-boardgameio_3.png" alt="Player 2 wins!"  title="Player 2 wins!" >}}
 
 Not too bad! You can also [play it yourself](https://www.lonesomecrowdedweb.com/yatzy/).
 

@@ -13,7 +13,7 @@ Many others use the event as an opportunity to learn and gain experience with a 
 
 Thanks to a brief look at earlier puzzles and a healthy dose of imposter syndrome I expected to struggle after the first couple of days, but with a little perseverance and the occasional bit of guidance from peers I was able to complete each puzzle on the same day it was released. Due to the imperfect start time and my choice of a fairly verbose language, I was never quite racing for the leaderboard. Points are awarded to the top 100 finishers of each puzzle, and the only ones I managed were, quite appropriately, for the very final puzzle which rewarded those who had completed the earlier 49 puzzles successfully. No doubt the distraction of Christmas Day played in to this, but nonetheless I was surprised and pleased with my final results.
 
-{{< figure src="/img/advent-of-code_1.png" title="My completed advent calendar." >}}
+{{< figure src="/img/advent-of-code_1.png" alt="My completed advent calendar." title="My completed advent calendar." >}}
 
 At the end of each day I would often discuss the day's puzzle with others. It was great to see how others approached the problems, and more often than not I walked away with ideas for improvements I could make to my own solutions. I especially liked the various visualizations that people shared on the [subreddit](https://www.reddit.com/r/adventofcode/).
 
@@ -25,15 +25,15 @@ Looking back, there were a number of puzzles that stood out to me:
 
 [Day 10: The Stars Align](https://adventofcode.com/2018/day/10) - This puzzle, featuring a collection of stars that are slowly coming together, required knowing exactly when to pause in time and read a particular message. While many I spoke to experimented by hand manually until identifying when the points met, I had the bright idea of reusing some knowledge I'd picked up from an earlier puzzle. By calculating the Manhattan distance between the most upper-left and bottom-right corners and halting when the distance was at its smallest, I was able to precisely identify when the message was presented.
 
-{{< figure src="/img/advent-of-code_2.png" title="The stars align with a message." >}}
+{{< figure src="/img/advent-of-code_2.png" alt="The stars align with a message." title="The stars align with a message." >}}
 
 [Day 15: Beverage Bandits](https://adventofcode.com/2018/day/15) - This puzzle, featuring a battlefield of elves and goblins fighting against each other, was memorable for a number of reasons. For starters, it took me the longest of any puzzle to complete. Despite my best efforts, I was never able to solve the pathfinding aspect of it alone and had to pull in a library featuring Dijkstra's algorithm to help. There were also a number of subtle bugs that were not evident from running the samples provided, so they took awhile to find and fix. Despite all this, it felt like coding a little video game simulation which really made me want to do more like it.
 
-{{< figure src="/img/advent-of-code_3.png" title="Elves vs Goblins." >}}
+{{< figure src="/img/advent-of-code_3.png" alt="Elves vs Goblins." title="Elves vs Goblins." >}}
 
 [Day 17: Reservoir Research](https://adventofcode.com/2018/day/17) - This puzzle featured a flow of water that would fill up various containers scattered around the grid. I loved everything about this puzzle. The theme, my solution (a single stack that slowly worked its way around the entire grid), the final output and the visualisations that others created.
 
-{{< figure src="/img/advent-of-code_4.png" title="A snippet of a much larger scene featuring flowing water." >}}
+{{< figure src="/img/advent-of-code_4.png" alt="A snippet of a much larger scene featuring flowing water." title="A snippet of a much larger scene featuring flowing water." >}}
 
 ### Most difficult ###
 

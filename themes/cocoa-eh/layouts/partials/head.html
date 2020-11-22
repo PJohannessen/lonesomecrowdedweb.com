@@ -5,7 +5,7 @@
 {{ if eq $url "" }}
     Patrick Johannessen | {{ .Site.Title }}
 {{ else }}
-    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} | Patrick Johannessen | {{ .Site.Title }} {{ end }}
+    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} | {{ .Site.Title }} {{ end }}
 {{ end }}
 </title>
 <link rel="canonical" href="{{ .Permalink }}">

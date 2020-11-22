@@ -51,7 +51,7 @@ cachebuster            = true
 copyright              = "© Patrick Johannessen {year}"
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "Patrick Johannessen is a software developer based in Brisbane, Australia."
+description            = "Patrick Johannessen writes about software development and other things."
 disablefancyfonts      = false
 enlarged               = true
 faviconfile            = "img/favicon.png"
@@ -64,6 +64,7 @@ lang                   = "en"
 latestpostcount        = 10                            # how many posts to display on the home page
 logofile               = ""
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+social_banner          = "img/logo.png"
 title                  = "The Lonesome Crowded Web"
 twitter                = "pajohannessen"
 
