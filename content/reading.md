@@ -5,14 +5,17 @@ slug = "reading-list"
 
 +++
 
-I like to read. I also like making lists; so I have combined the two below! My current goal is to read  an average of one book every week.
-
+I like to read. I also like making lists; so I have combined the two below! My current goal is to read roughly three books each month.
 
 ### Currently Reading
 
-* {{< audiobook id="43637074" title="Shōgun" authors="James Clavell" >}}
-* {{< ebook id="23463279" title="Designing Data-Intensive Applications" authors="Martin Kleppmann" >}}
-* {{< ebook id="20342617" title="Just Mercy: A Story of Justice and Redemption" authors="Bryan Stevenson" >}}
+- {{< ebook id="23463279" title="Designing Data-Intensive Applications" authors="Martin Kleppmann" >}}
+- {{< paperback id="3263607" title="The Fellowship of the Ring" authors="J.R.R. Tolkien" >}}
+- {{< ebook id="28335696" title="Persepolis Rising" authors="James S.A. Corey" >}}
+
+### 2021
+
+1. {{< ebook id="55030" title="Cosmos" authors="Carl Sagan" >}}
 
 ### 2020
 
@@ -56,13 +59,21 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="4981" title="Slaughterhouse-Five" authors="Kurt Vonnegut Jr." >}}
 1. {{< ebook id="21856367" title="The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution" authors="Walter Isaacson" >}}
 1. {{< ebook id="13651" title="The Dispossessed" authors="Ursula K. Le Guin" >}}
+1. {{< ebook id="20342617" title="Just Mercy: A Story of Justice and Redemption" authors="Bryan Stevenson" >}}
+1. {{< audiobook id="43637074" title="Shōgun" authors="James Clavell" >}}
+1. {{< ebook id="14817" title="A Scanner Darkly" authors="Philip K. Dick" >}}
+1. {{< ebook id="17465709" title="Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants" authors="Robin Wall Kimmerer" >}}
+1. {{< ebook id="30367030" title="Strange Dogs" authors="James S.A. Corey" >}}
+1. {{< ebook id="18241810" title="Self-Published Kindling: Memoirs of a Homeless Bookstore Owner" authors="Mik Everett" >}}
+1. {{< audiobook id="26082916" title="Ready Player Two" authors="Ernest Cline" >}}
+1. {{< ebook id="41160292" title="Exhalation: Stories" authors="Ted Chiang" >}}
 
 ### 2019
 
 1. Plot & Structure: Techniques and Exercises for Crafting a Plot That Grips Readers from Start to Finish, by James Scott Bell 📘
 1. High Fidelity, by Nick Hornby 📘
 1. One Flew Over the Cuckoo's Nest, by Ken Kesey 📘
-1. The Millionaire Next Door: The Surprising Secrets of America's Wealthy, by Thomas J. Stanley,  William D. Danko 📓
+1. The Millionaire Next Door: The Surprising Secrets of America's Wealthy, by Thomas J. Stanley, William D. Danko 📓
 1. Freedom™, by Daniel Suarez 🎧
 1. Common Sense on Mutual Funds: New Imperatives for the Intelligent Investor, by John C. Bogle 📓
 1. Devil Take the Hindmost: A History of Financial Speculation, by Edward Chancellor 📘
@@ -100,7 +111,7 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. To Play the King, by Michael Dobbs 📘
 1. Mythos: The Greek Myths Retold, by Stephen Fry 🎧
 1. The Final Cut, by Michael Dobbs 📘
-1. Structure and Interpretation of Computer Programs, by Harold Abelson,  Gerald Jay Sussman, Julie Sussman 📓
+1. Structure and Interpretation of Computer Programs, by Harold Abelson, Gerald Jay Sussman, Julie Sussman 📓
 1. The Fall of Hyperion, by Dan Simmons 🎧
 1. A Dream About Lightning Bugs, by Ben Folds 📘
 1. {{< ebook id="23093801" title="Doomsday Book" authors="Connie Willis" >}}
@@ -119,13 +130,14 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="40776644" title="The Moment of Lift: How Empowering Women Changes the World" authors="Melinda Gates" >}}
 
 ### 2018
+
 1. Snow Crash, by Neal Stephenson 📘
 1. Solving the Procrastination Puzzle: A Concise Guide to Strategies for Change, by Timothy A. Pychyl 📘
 1. The Hobbit, by J.R.R. Tolkien 📘
 1. The Girl with the Dragon Tattoo, by Stieg Larsson 📘
-1. Freakonomics: A Rogue Economist Explores the Hidden Side of Everything, by Steven D. Levitt,  Stephen J. Dubner 📘
+1. Freakonomics: A Rogue Economist Explores the Hidden Side of Everything, by Steven D. Levitt, Stephen J. Dubner 📘
 1. The War of Art: Break Through the Blocks and Win Your Inner Creative Battles, by Steven Pressfield 📘
-1. Site Reliability Engineering: How Google Runs Production Systems, by by Betsy Beyer,  Chris Jones, Jennifer Petoff, Niall Richard Murphy 📘
+1. Site Reliability Engineering: How Google Runs Production Systems, by by Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy 📘
 1. The Casual Vacancy, by J.K. Rowling 📘
 1. The Adventures of Tom Sawyer, by Mark Twain 📘
 1. The Picture of Dorian Gray, by Oscar Wilde 📘
@@ -155,7 +167,6 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. Gone Girl, by Gillian Flynn 🎧
 1. Daemon, by Daniel Suarez 🎧
 
-
 ### 2016
 
 1. Dune, by Frank Herbert 🎧
@@ -163,7 +174,7 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. Vurt, by Jeff Noon 🎧
 1. World War Z, by Max Brooks 🎧
 1. The Master of Whitestorm, by Janny Wurts 🎧
-1. The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win, by Gene Kim,  Kevin Behr, George Spafford 🎧
+1. The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win, by Gene Kim, Kevin Behr, George Spafford 🎧
 1. The Shining, by Stephen King 🎧
 1. The Big Sleep, by Raymond Chandler 🎧
 1. Murder on the Orient Express, by Agatha Christie 🎧
@@ -175,7 +186,6 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. The Martian, by Andy Weir 🎧
 1. The Drunkard's Walk: How Randomness Rules Our Lives, by Leonard Mlodinow 🎧
 1. Ready Player One, by Ernest Cline 🎧
-
 
 📘 = physical book
 📓 = eBook
