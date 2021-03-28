@@ -21,6 +21,20 @@ It is hosted on [AWS S3](https://aws.amazon.com/s3/) and powered by [Hugo](https
 
 ---
 
+### Is It in the Cloud?
+
+<span class="project-links"><a href="https://isitinthe.cloud">Website</a> | <a href="https://www.lonesomecrowdedweb.com/blog/site-on-azure-functions/">Blog 1</a> | <a href="https://www.lonesomecrowdedweb.com/blog/revisiting-a-site-on-azure-functions/">Blog 2</a> | <a href="https://github.com/PJohannessen/isitinthe.cloud">Source Code</a></span>
+
+Is It in the Cloud? is a simple app that tries to determine whether a public website is hosted by a cloud provider such as Microsoft Azure or Amazon Web Services.
+
+This app was an excuse to try hosting a website cheaply by utilizing [Azure Functions](https://azure.microsoft.com/en-au/services/functions/).
+
+{{< figure src="/img/projects/is-it-in-the-cloud_1.png" alt="Is It in the Cloud?" title="Is It in the Cloud?" >}}
+
+{{< figure src="/img/projects/is-it-in-the-cloud_2.png" alt="microsoft.com is, at least" title="microsoft.com is, at least" >}}
+
+---
+
 ### WriteTime
 
 WriteTime is a productivity and motivional app that encourages writers by tracking their writing sessions.
@@ -50,20 +64,6 @@ This project started as far back as 2007. Once upon a time I had grand aspiratio
 I have completed all of the puzzles in the 2015, 2016, 2017 and 2018 Advent of Code events. I have made available all my solutions, written in C# with [LINQPad](https://www.linqpad.net/) as my IDE.
 
 {{< figure src="/img/projects/advent-of-code-solutions_1.png" alt="All 50 stars in Advent of Code 2018" title="All 50 stars in Advent of Code 2018" >}}
-
----
-
-### Is It in the Cloud?
-
-<span class="project-links"><a href="https://www.lonesomecrowdedweb.com/blog/site-on-azure-functions/">Blog 1</a> | <a href="https://www.lonesomecrowdedweb.com/blog/revisiting-a-site-on-azure-functions/">Blog 2</a> | <a href="https://github.com/PJohannessen/isitinthe.cloud">Source Code</a></span>
-
-Is It in the Cloud? is a simple app that tries to determine whether a public website is hosted on Microsoft Azure.
-
-This app was an excuse to try hosting a website cheaply by utilizing [Azure Functions](https://azure.microsoft.com/en-au/services/functions/). It worked, for awhile - an unknown issue eventually caused the costs to increase considerably, so it is currently offline.
-
-{{< figure src="/img/projects/is-it-in-the-cloud_1.png" alt="Is It in the Cloud?" title="Is It in the Cloud?" >}}
-
-{{< figure src="/img/projects/is-it-in-the-cloud_2.png" alt="microsoft.com is, at least" title="microsoft.com is, at least" >}}
 
 ---
 

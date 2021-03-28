@@ -9,13 +9,26 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-- {{< ebook id="23463279" title="Designing Data-Intensive Applications" authors="Martin Kleppmann" >}}
-- {{< paperback id="3263607" title="The Fellowship of the Ring" authors="J.R.R. Tolkien" >}}
-- {{< ebook id="28335696" title="Persepolis Rising" authors="James S.A. Corey" >}}
+- {{< paperback id="24113" title="Gödel, Escher, Bach: an Eternal Golden Braid" authors="Douglas R. Hofstadter" >}}
+- {{< audiobook id="52925018" title="A Bigger Picture" authors="Malcolm Turnbull" >}}
+- {{< ebook id="2914066" title="Programming: Principles and Practice Using C++" authors="Bjarne Stroustrup" >}}
+- {{< paperback id="222910" title="The Two Towers" authors="J.R.R. Tolkien" >}}
+- {{< ebook id="68428" title="The Final Empire" authors="Brandon Sanderson" >}}
 
 ### 2021
 
 1. {{< ebook id="55030" title="Cosmos" authors="Carl Sagan" >}}
+1. {{< ebook id="28335696" title="Persepolis Rising" authors="James S.A. Corey" >}}
+1. {{< ebook id="51209450" title="Auberon" authors="James S.A. Corey" >}}
+1. {{< paperback id="3263607" title="The Fellowship of the Ring" authors="J.R.R. Tolkien" >}}
+1. {{< ebook id="58146" title="Play Winning Chess" authors=" Yasser Seirawan, Jeremy Silman" >}}
+1. {{< ebook id="13588394" title="The Signal and the Noise: Why So Many Predictions Fail—But Some Don't" authors="Nate Silver" >}}
+1. {{< ebook id="365" title="Dirk Gently's Holistic Detective Agency" authors="Nate Silver" >}}
+1. {{< ebook id="23463279" title="Designing Data-Intensive Applications" authors="Martin Kleppmann" >}}
+1. {{< ebook id="32072974" title="The Actor's Life: A Survival Guide" authors="Jenna Fischer" >}}
+1. {{< ebook id="179133" title="Domain-Driven Design: Tackling Complexity in the Heart of Software" authors="Eric Evans" >}}
+1. {{< ebook id="28335698" title="Tiamat's Wrath" authors="James S.A. Corey" >}}
+1. {{< ebook id="62832976" title="Less is More: How Degrowth Will Save the World" authors="Jason Hickel" >}}
 
 ### 2020
 
