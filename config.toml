@@ -10,7 +10,6 @@ publishdir = "public"
 pygmentsStyle       = "dracula"
 pygmentsCodeFences  = true
 pygmentsUseClasses  = false
-disqusshortname     = "lonesomecrowdedweb"
 pluralizelisttitles = false
 googleAnalytics = "UA-88445668-1"
 disablekinds = ["section", "taxonomy", "taxonomyTerm"]
