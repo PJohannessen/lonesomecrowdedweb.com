@@ -13,8 +13,10 @@
   <link rel="apple-touch-icon" href="icon.png" />
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/normalize.css" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css" />
+  {{ $normalize := resources.Get "css/normalize.css" }}
+  {{ $main := resources.Get "css/main.css" }}
+  {{ $css := slice $normalize $main | resources.Concat "css/site.css" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
 
   <meta name="theme-color" content="#fafafa" />
 </head>
