@@ -5,8 +5,6 @@ date = "2017-02-21"
 slug = "broken-redirect"
 +++
 
-## Summary
-
 I was recently trying to renew the Let's Encrypt certificate for this site, but doing so failed with the following error (and an accompanying 404 Not Found):
 
 ``` plaintext

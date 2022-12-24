@@ -5,8 +5,6 @@ date = "2018-01-03"
 slug = "revisiting-a-site-on-azure-functions"
 +++
 
-## Summary
-
 Last year I blogged about [Building a Small Site on Azure Functions](https://www.lonesomecrowdedweb.com/blog/site-on-azure-functions/). It was an interesting experiment, though not a serious solution I'd recommend to anyone based on that experience. Still, the site has been running away in the background serving the _very_ occasional visitor since then at the cost of just a few cents per month.
 
 At some point in the last month or two (some form of monitoring would have helped here) the site stopped working. Based on a quick search I _think_ this might be due to do some breaking changes in Azure Function Proxies (a preview technology) and its handling of catch-all routes, but I'm not entirely sure.
