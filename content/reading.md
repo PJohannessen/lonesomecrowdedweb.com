@@ -10,10 +10,16 @@ I like to read. I also like making lists; so I have combined the two below! My c
 ### Currently Reading
 
 - {{< paperback id="24113" title="Gödel, Escher, Bach: an Eternal Golden Braid" authors="Douglas R. Hofstadter" >}}
-- {{< audiobook id="52925018" title="A Bigger Picture" authors="Malcolm Turnbull" >}}
-- {{< ebook id="2914066" title="Programming: Principles and Practice Using C++" authors="Bjarne Stroustrup" >}}
-- {{< paperback id="222910" title="The Two Towers" authors="J.R.R. Tolkien" >}}
-- {{< ebook id="68428" title="The Final Empire" authors="Brandon Sanderson" >}}
+- {{< audiobook id="55361205" title="A Promised Land" authors="Barack Obama" >}}
+
+### 2022
+
+1. {{< ebook id="28335699" title="Leviathan Falls" authors="James S.A. Corey" >}}
+1. {{< ebook id="53799686" title="Anxious People" authors="Fredrik Backman" >}}
+1. {{< ebook id="57806251" title="Poirot Investigates" authors="Agatha Christie" >}}
+1. {{< ebook id="420846" title="Accounting Game: Basic Accounting Fresh from the Lemonade Stand" authors="Darrell Mullis, Judith Orloff" >}}
+1. {{< ebook id="15670" title="On Stranger Tides" authors="Tim Powers" >}}
+1. {{< ebook id="95708" title="Leviathan Falls" authors="The Now Habit" >}}
 
 ### 2021
 
@@ -29,6 +35,16 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="179133" title="Domain-Driven Design: Tackling Complexity in the Heart of Software" authors="Eric Evans" >}}
 1. {{< ebook id="28335698" title="Tiamat's Wrath" authors="James S.A. Corey" >}}
 1. {{< ebook id="62832976" title="Less is More: How Degrowth Will Save the World" authors="Jason Hickel" >}}
+1. {{< audiobook id="52925018" title="A Bigger Picture" authors="Malcolm Turnbull" >}}
+1. {{< ebook id="68428" title="The Final Empire" authors="Brandon Sanderson" >}}
+1. {{< paperback id="222910" title="The Two Towers" authors="J.R.R. Tolkien" >}}
+1. {{< ebook id="40604846" title="Nothing to Envy: Ordinary Lives in North Korea" authors="Barbara Demick" >}}
+1. {{< ebook id="16343" title="The Mysterious Affair at Styles" authors="Agatha Christie" >}}
+1. {{< audiobook id="32109569" title="We Are Legion (We Are Bob)" authors="Dennis E. Taylor" >}}
+1. {{< audiobook id="52578297" title="The Midnight Library" authors="Matt Haig" >}}
+1. {{< ebook id="639787" title="The Murder on the Links" authors="Agatha Christie" >}}
+1. {{< ebook id="1898" title="Into Thin Air: A Personal Account of the Mount Everest Disaster" authors="Jon Krakauer" >}}
+1. {{< ebook id="54493401" title="Project Hail Mary" authors="Andy Weir" >}}
 
 ### 2020
 
