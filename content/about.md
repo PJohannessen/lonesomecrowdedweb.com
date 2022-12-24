@@ -9,4 +9,4 @@ I'm Patrick Johannessen, a software developer based in Brisbane, Australia. I wo
 
 This site is hosted on [AWS S3](https://aws.amazon.com/s3/) and is powered by [Hugo](https://gohugo.io/) and the [PaperMod](https://git.io/hugopapermod) theme. The name of the site is an homage to [The Lonesome Crowded West](https://en.wikipedia.org/wiki/The_Lonesome_Crowded_West).
 
-Comments on this blog are disabled until I can find a suitable, compliant commenting provider, but you can reach me at [@pajohannessen](https://twitter.com/pajohannessen) or [patrick@lonesomecrowdedweb.com](mailto:patrick@lonesomecrowdedweb.com).
+Comments are powered by [CommentBox](https://commentbox.io/), or you can reach me directly at [@pajohannessen](https://twitter.com/pajohannessen) or [patrick@lonesomecrowdedweb.com](mailto:patrick@lonesomecrowdedweb.com).

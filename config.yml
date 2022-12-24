@@ -1,7 +1,7 @@
 baseURL: "https://www.lonesomecrowdedweb.com/"
 title: "The Lonesome Crowded Web"
 paginate: 10
-theme: hugo-PaperMod
+theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -61,7 +61,7 @@ params:
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: false
-    # comments: false
+    comments: true
     images: ["papermod-cover.png"]
 
     profileMode:

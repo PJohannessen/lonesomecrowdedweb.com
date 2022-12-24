@@ -51,7 +51,7 @@
     {{- end }}
   </footer>
 
-  {{- if (.Param "comments") }}
+  {{- if and (.Param "comments") (eq .Section "blog") }}
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
