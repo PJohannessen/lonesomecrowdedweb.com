@@ -191,7 +191,7 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. The Shining, by Stephen King 🎧
 1. The Big Sleep, by Raymond Chandler 🎧
 1. Murder on the Orient Express, by Agatha Christie 🎧
-1. You're Never Weird on the Internet , by Felicia Day 🎧
+1. You're Never Weird on the Internet, by Felicia Day 🎧
 1. Algorithms to Live By: The Computer Science of Human Decisions, by Brian Christian, Tom Griffiths 🎧
 
 ### 2015

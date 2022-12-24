@@ -5,8 +5,6 @@ date = "2018-01-03"
 slug = "four-in-a-row-boardgameio"
 +++
 
-## Summary
-
 Google recently released a "not an official Google product" framework called [boardgame.io](https://github.com/google/boardgame.io). To quote the documentation:
 
 > The goal of this framework is to allow a game author to essentially translate the rules of a game into a series of simple functions that describe how the game state changes when a particular move is made, and the framework takes care of the rest. You will not need to write any networking or backend code.

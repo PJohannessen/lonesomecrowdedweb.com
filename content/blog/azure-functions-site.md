@@ -5,8 +5,6 @@ date = "2017-04-16"
 slug = "site-on-azure-functions"
 +++
 
-## Summary
-
 I recently stumbled upon [Is it on AWS?](https://isitonaws.com/) and [its accompanying backstory](https://aws.amazon.com/blogs/aws/is-it-on-aws-domain-identification-using-aws-lambda/). It sounded like a fascinating way to create a small, focused website. I thought it would be a positive learning experience to create a similar site with Microsoft Azure.
 
 Introducing [IsItInThe.Cloud](https://www.isitinthe.cloud)

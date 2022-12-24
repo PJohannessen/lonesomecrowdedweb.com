@@ -15,7 +15,7 @@ The following is a list of personal projects I've worked on over the years. Whil
 
 The Lonesome Crowed Web is my personal blog - the one you're reading right now!
 
-It is hosted on [AWS S3](https://aws.amazon.com/s3/) and powered by [Hugo](https://gohugo.io/) with the [Cocoa Enhanced](https://github.com/mtn/cocoa-eh-hugo-theme) theme. The name of the site is an homage to [The Lonesome Crowded West](https://en.wikipedia.org/wiki/The_Lonesome_Crowded_West).
+It is hosted on [AWS S3](https://aws.amazon.com/s3/) and powered by [Hugo](https://gohugo.io/) with the [PaperMod](https://git.io/hugopapermod) theme. The name of the site is an homage to [The Lonesome Crowded West](https://en.wikipedia.org/wiki/The_Lonesome_Crowded_West).
 
 {{< figure src="/img/projects/lonesome-crowded-web_1.png" alt="The Lonesome Crowded Web homepage" title="The Lonesome Crowded Web homepage" >}}
 
