@@ -12,6 +12,19 @@ I like to read. I also like making lists; so I have combined the two below! My c
 - {{< paperback id="24113" title="Gödel, Escher, Bach: an Eternal Golden Braid" authors="Douglas R. Hofstadter" >}}
 - {{< audiobook id="55361205" title="A Promised Land" authors="Barack Obama" >}}
 
+### 2023
+
+1. {{< paperback id="838729" title="The Return of the King" authors="J.R.R. Tolkien" >}}
+1. {{< ebook id="15799151" title="Daily Rituals: How Artists Work" authors="Mason Currey" >}}
+1. {{< ebook id="26152638" title="Spelunky" authors="Derek Yu" >}}
+1. {{< ebook id="16316" title="The Big Four" authors="Agatha Christie" >}}
+1. {{< ebook id="16335" title="The Mystery of the Blue Train" authors="Agatha Christie" >}}
+1. {{< audiobook id="59364173" title="I'm Glad My Mom Died" authors="Jennette McCurdy" >}}
+1. {{< ebook id="68429" title="The Well of Ascension" authors="Brandon Sanderson" >}}
+1. {{< ebook id="2767793" title="The Hero of Ages" authors="Brandon Sanderson" >}}
+1. {{< ebook id="58811588" title="Cover Story" authors="Susan Rigetti" >}}
+1. {{< ebook id="6452731" title="Justice: What's the Right Thing to Do?" authors="Michael J. Sandel" >}}
+
 ### 2022
 
 1. {{< ebook id="28335699" title="Leviathan Falls" authors="James S.A. Corey" >}}
@@ -19,7 +32,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="57806251" title="Poirot Investigates" authors="Agatha Christie" >}}
 1. {{< ebook id="420846" title="Accounting Game: Basic Accounting Fresh from the Lemonade Stand" authors="Darrell Mullis, Judith Orloff" >}}
 1. {{< ebook id="15670" title="On Stranger Tides" authors="Tim Powers" >}}
-1. {{< ebook id="95708" title="Leviathan Falls" authors="The Now Habit" >}}
+1. {{< ebook id="95708" title="The Now Habit" authors="Neil A. Fiore" >}}
+1. {{< ebook id="223380" title="Stories of Your Life and Others" authors="Ted Chiang" >}}
 
 ### 2021
 

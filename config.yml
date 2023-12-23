@@ -27,7 +27,7 @@ languages:
         menu:
             main:
                 - name: Blog
-                  url: blog
+                  url: blog/
                   weight: 5
                 - name: About
                   url: about/
