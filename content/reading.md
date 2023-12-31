@@ -9,8 +9,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 
 ### Currently Reading
 
-- {{< paperback id="24113" title="Gödel, Escher, Bach: an Eternal Golden Braid" authors="Douglas R. Hofstadter" >}}
 - {{< audiobook id="55361205" title="A Promised Land" authors="Barack Obama" >}}
+- {{< ebook id="54870256" title="There Is No Antimemetics Division" authors="qntm" >}}
 
 ### 2023
 
@@ -24,6 +24,8 @@ I like to read. I also like making lists; so I have combined the two below! My c
 1. {{< ebook id="2767793" title="The Hero of Ages" authors="Brandon Sanderson" >}}
 1. {{< ebook id="58811588" title="Cover Story" authors="Susan Rigetti" >}}
 1. {{< ebook id="6452731" title="Justice: What's the Right Thing to Do?" authors="Michael J. Sandel" >}}
+1. {{< ebook id="16424" title="Peril at End House" authors="Agatha Christie" >}}
+1. {{< ebook id="215492" title="Lord Edgware Dies" authors="Agatha Christie" >}}
 
 ### 2022
 
