@@ -5,12 +5,45 @@ slug = "reading-list"
 
 +++
 
-I like to read. I also like making lists; so I have combined the two below! My current goal is to read roughly three books each month.
+I like to read. I also like making lists; so I have combined the two below! I try to read regularly, but sometimes life gets in the way.
 
 ### Currently Reading
 
-- {{< audiobook id="55361205" title="A Promised Land" authors="Barack Obama" >}}
-- {{< ebook id="54870256" title="There Is No Antimemetics Division" authors="qntm" >}}
+- {{< audiobook id="56377548" title="Carl's Doomsday Scenario" authors="Matt Dinniman" >}}
+- {{< ebook id="17346953" title="Software Requirements" authors="Karl Wiegers, Joy Beatty" >}}
+- {{< ebook id="35031085" title="Frankenstein" authors="Mary Shelley" >}}
+- {{< ebook id="214268997" title="Tiny Experiments: How to Live Freely in a Goal-Obsessed World" authors="Anne-Laure Le Cunff" >}}
+
+### 2025
+
+1. {{< ebook id="433035" title="Sad Cypress" authors="Agatha Christie" >}}
+1. {{< ebook id="16312" title="One, Two, Buckle My Shoe" authors="Agatha Christie" >}}
+1. {{< paperback id="60771488" title="My Dream Time" authors="Ash Barty" >}}
+
+### 2024
+
+1. {{< ebook id="54870256" title="There Is No Antimemetics Division" authors="qntm" >}}
+1. {{< ebook id="20518872" title="The Three-Body Problem" authors="Liu Cixin" >}}
+1. {{< ebook id="23168817" title="The Dark Forest" authors="Liu Cixin" >}}
+1. {{< ebook id="46000520" title="The Thursday Murder Club" authors="Richard Osman" >}}
+1. {{< ebook id="25451264" title="Death's End" authors="Liu Cixin" >}}
+1. {{< ebook id="140360" title="Three Act Tragedy" authors="Agatha Christie" >}}
+1. {{< ebook id="16326" title="Death in the Clouds" authors="Agatha Christie" >}}
+1. {{< ebook id="334176" title="The Sparrow" authors="Mary Doria Russell" >}}
+1. {{< ebook id="16360" title="Murder in Mesopotamia" authors="Agatha Christie" >}}
+1. {{< ebook id="16297" title="Cards on the Table" authors="Agatha Christie" >}}
+1. {{< ebook id="121646" title="Murder in the Mews" authors="Agatha Christie" >}}
+1. {{< ebook id="35747076" title="Accelerate: Building and Scaling High Performing Technology Organizations" authors="Nicole Forsgren, Jez Humble, Gene Kim" >}}
+1. {{< ebook id="16344" title="Dumb Witness" authors="Agatha Christie" >}}
+1. {{< ebook id="40121378" title="Atomic Habits" authors="James Clear" >}}
+1. {{< audiobook id="56791389" title="Dungeon Crawler Carl" authors="Matt Dinniman" >}}
+1. {{< ebook id="376964" title="The Field Guide to Understanding Human Error" authors="Sidney Dekker" >}}
+1. {{< audiobook id="55361205" title="A Promised Land" authors="Barack Obama" >}}
+1. {{< ebook id="9267" title="Agile Estimating and Planning" authors="Mike Cohn" >}}
+1. {{< ebook id="3828902" title="Thinking In Systems: A Primer" authors="Donella H. Meadows, Diana Wright" >}}
+1. {{< ebook id="16948" title="Children of God" authors="Mary Doria Russell" >}}
+1. {{< ebook id="16363" title="Appointment with Death" authors="Agatha Christie" >}}
+1. {{< ebook id="16349" title="Hercule Poirot's Christmas" authors="Agatha Christie" >}}
 
 ### 2023
 
