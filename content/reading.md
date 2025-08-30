@@ -9,16 +9,30 @@ I like to read. I also like making lists; so I have combined the two below! I tr
 
 ### Currently Reading
 
-- {{< audiobook id="56377548" title="Carl's Doomsday Scenario" authors="Matt Dinniman" >}}
 - {{< ebook id="17346953" title="Software Requirements" authors="Karl Wiegers, Joy Beatty" >}}
-- {{< ebook id="35031085" title="Frankenstein" authors="Mary Shelley" >}}
-- {{< ebook id="214268997" title="Tiny Experiments: How to Live Freely in a Goal-Obsessed World" authors="Anne-Laure Le Cunff" >}}
 
 ### 2025
 
 1. {{< ebook id="433035" title="Sad Cypress" authors="Agatha Christie" >}}
 1. {{< ebook id="16312" title="One, Two, Buckle My Shoe" authors="Agatha Christie" >}}
 1. {{< paperback id="60771488" title="My Dream Time" authors="Ash Barty" >}}
+1. {{< ebook id="214268997" title="Tiny Experiments: How to Live Freely in a Goal-Obsessed World" authors="Anne-Laure Le Cunff" >}}
+1. {{< ebook id="0" title="Salt Sugar Fat: How the Food Giants Hooked Us" authors="Michael Moss" >}}
+1. {{< ebook id="0" title="User Stories Applied: For Agile Software Development" authors="Mike Cohn" >}}
+1. {{< ebook id="35031085" title="Frankenstein" authors="Mary Shelley" >}}
+1. {{< ebook id="0" title="Code: The Hidden Language of Computer Hardware and Software" authors="Charles Petzold" >}}
+1. {{< ebook id="0" title="Evil Under the Sun" authors="Agatha Christie" >}}
+1. {{< ebook id="0" title="Why We Eat (Too Much): The New Science of Appetite" authors="Andrew Jenkinson" >}}
+1. {{< ebook id="0" title="Lean Habits For Lifelong Weight Loss" authors="Georgie Fear" >}}
+1. {{< ebook id="0" title="Not All Fairy Tales Have Happy Endings: The rise and fall of Sierra On-Line" authors="Ken Williams" >}}
+1. {{< ebook id="0" title="The Age of Intelligent Machines" authors="Ray Kurzweil" >}}
+1. {{< ebook id="0" title="The Age of Spiritual Machines" authors="Ray Kurzweil" >}}
+1. {{< ebook id="0" title="What Does It All Mean?: A Very Short Introduction to Philosophy" authors="Thomas Nagel" >}}
+1. {{< ebook id="0" title="Think: A Compelling Introduction to Philosophy" authors="Simon Blackburn" >}}
+1. {{< ebook id="0" title="Dark Wire: The Incredible True Story of the Largest Sting Operation Ever" authors="Joseph Cox" >}}
+1. {{< ebook id="0" title="The Hollow" authors="Agatha Christie" >}}
+1. {{< ebook id="0" title="The Pig That Wants to Be Eaten: 100 Experiments for the Armchair Philosopher" authors="Julian Baggini" >}}
+1. {{< ebook id="0" title="Make It Stick: The Science of Successful Learning" authors="Peter C. Brown, Henry L. Roediger, Mark A. McDaniel" >}}
 
 ### 2024
 
