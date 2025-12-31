@@ -33,6 +33,11 @@ I like to read. I also like making lists; so I have combined the two below! I tr
 1. {{< ebook id="0" title="The Hollow" authors="Agatha Christie" >}}
 1. {{< ebook id="0" title="The Pig That Wants to Be Eaten: 100 Experiments for the Armchair Philosopher" authors="Julian Baggini" >}}
 1. {{< ebook id="0" title="Make It Stick: The Science of Successful Learning" authors="Peter C. Brown, Henry L. Roediger, Mark A. McDaniel" >}}
+1. {{< ebook id="0" title="The Labours of Hercules" authors="Agatha Christie" >}}
+1. {{< ebook id="0" title="The Practicing Stoic: A Philosophical User's Manual" authors="Ward Farnsworth" >}}
+1. {{< ebook id="0" title="Building a Second Brain" authors="Tiago Forte" >}}
+1. {{< ebook id="0" title="The PARA Method" authors="Tiago Forte" >}}
+1. {{< ebook id="0" title="The Coming Wave: Technology, Power and the Twenty-First Century's Greatest Dilemma" authors="Mustafa Suleyman" >}}
 
 ### 2024
 
