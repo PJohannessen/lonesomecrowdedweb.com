@@ -3,6 +3,7 @@ title: "Yatzy with boardgame.io"
 date: 2020-01-03T10:50:00+10:00
 draft: false
 slug: "yatzy-boardgameio"
+tags: ["boardgame.io", "React", "Game Development"]
 ---
 
 Two years ago I wrote about [creating a simple Four In A Row game with boardgame.io](/blog/four-in-a-row-boardgameio/). It continues to get some traffic, despite being somewhat outdated due to continued improvements to the [boardgame.io](https://boardgame.io/) framework. As such, I thought it would be a good time to revisit the framework again with a new game, [Yatzy](https://en.wikipedia.org/wiki/Yatzy). 

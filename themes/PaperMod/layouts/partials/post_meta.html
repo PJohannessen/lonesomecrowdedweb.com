@@ -21,3 +21,6 @@
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end -}}
+
+{{- with .Params.tags }}&nbsp;·&nbsp;{{- range . }}<a href="{{ "tags/" | absLangURL }}{{ . | urlize }}/" class="post-tag">{{ . }}</a>{{ end -}}
+{{- end -}}

@@ -3,6 +3,7 @@ title: "Wrapping up Advent of Code 2019"
 date: 2019-12-26T22:05:00+10:00
 draft: false
 slug: "advent-of-code-2019"
+tags: ["Advent of Code"]
 ---
 
 Another year, another [Advent of Code](https://adventofcode.com/) event completed! I've blogged before about [participating in the 2018 event](/blog/advent-of-code-2018/) and [catching up on the 2015, 2016 and 2017 events](/blog/catching-up-on-advent-of-code/), so I thought I would keep the tradition going by sharing my experience with the 2019 event that has recently finished. This blog assumes a certain level of familiarity with Advent of Code - if you don't know what it is, check out the website or one of my previous blog posts.

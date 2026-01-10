@@ -3,6 +3,7 @@ title = "Four In A Row with boardgame.io"
 draft = false
 date = "2018-01-03"
 slug = "four-in-a-row-boardgameio"
+tags = ["boardgame.io", "React", "Game Development"]
 +++
 
 Google recently released a "not an official Google product" framework called [boardgame.io](https://github.com/google/boardgame.io). To quote the documentation:

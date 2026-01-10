@@ -3,6 +3,7 @@ title: "A short recap of Advent of Code 2020"
 date: 2021-01-25T11:50:00+10:00
 draft: false
 slug: "advent-of-code-2020"
+tags: ["Advent of Code"]
 ---
 
 Writing about my experiences with [Advent of Code](https://adventofcode.com/) has become something of a yearly tradition for me, and while 2020's entry has lapsed into 2021, I am here to continue the tradition all the same!

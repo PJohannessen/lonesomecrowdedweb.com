@@ -3,6 +3,7 @@ title = "Named Dbup Code Scripts"
 draft = false
 date = "2017-12-14"
 slug = "named-dbup-code-scripts"
+tags = ["DbUp", "C#", ".NET"]
 +++
 
 I'm a big fan of the [DbUp](https://github.com/DbUp/DbUp) library and its approach to database management. Rather than go over all the benefits of this approach, I'll [leave it to the docs](http://dbup.readthedocs.io/en/latest/philosophy-behind-dbup/) which do a much better job than I could. Suffice it to say, all the things it brings to the table - tight control, predictability, ORM independence, the power of raw SQL - are all good things!

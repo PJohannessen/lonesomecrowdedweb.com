@@ -3,6 +3,7 @@ title: "Thoughts on Advent of Code 2018"
 date: 2019-02-10T19:00:00+10:00
 draft: false
 slug: "advent-of-code-2018"
+tags: ["Advent of Code"]
 ---
 
 I recently participated in [Advent of Code 2018](https://adventofcode.com/2018/about). Overall it was a very positive experience and I thought I would share some thoughts about the whole thing (albeit a lot later than intended!).

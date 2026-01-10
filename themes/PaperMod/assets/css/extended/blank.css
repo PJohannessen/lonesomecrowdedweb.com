@@ -3,3 +3,19 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+.post-tag {
+    display: inline-block;
+    background: var(--tertiary);
+    color: var(--secondary);
+    padding: 2px 10px;
+    margin-left: 6px;
+    border-radius: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.post-tag:hover {
+    background: var(--border);
+}

@@ -3,6 +3,7 @@ title: "Catching Up on Advent of Code"
 date: 2019-08-22T13:30:00+10:00
 draft: false
 slug: "catching-up-on-advent-of-code"
+tags: ["Advent of Code"]
 ---
 
 Earlier this year I [posted about my experience](/blog/advent-of-code-2018/) participating in [Advent of Code 2018](https://adventofcode.com/2018). For those who aren't familiar, Advent of Code is (to quote the website):

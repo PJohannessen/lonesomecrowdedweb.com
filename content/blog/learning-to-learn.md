@@ -3,6 +3,7 @@ title: "Learning to Learn"
 date: 2025-09-10T14:56:46+10:00
 draft: false
 slug: "learning-to-learn"
+tags: ["Personal Development"]
 ---
 
 It has been roughly 17 years since I undertook any kind of formal education or learning. While attending university, my approach was just about the worst kind you can imagine—waiting until just days (or even hours) before an assessment or examination was due before acting. For an assessment, it was using the pressure of a deadline to force myself to produce something I could submit. For an examination, it was cramming as much information as I could the night before, then relying on short-term memory to get me through it. This was "effective" in the sense that it allowed for passing grades, but not so much for building lifelong habits or a foundation of knowledge to build upon.

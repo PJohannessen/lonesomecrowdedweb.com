@@ -3,6 +3,7 @@ title = "Revisiting a Site Built On Azure Functions"
 draft = false
 date = "2018-01-03"
 slug = "revisiting-a-site-on-azure-functions"
+tags = ["Azure", "Azure Functions", "C#", ".NET"]
 +++
 
 Last year I blogged about [Building a Small Site on Azure Functions](https://www.lonesomecrowdedweb.com/blog/site-on-azure-functions/). It was an interesting experiment, though not a serious solution I'd recommend to anyone based on that experience. Still, the site has been running away in the background serving the _very_ occasional visitor since then at the cost of just a few cents per month.
